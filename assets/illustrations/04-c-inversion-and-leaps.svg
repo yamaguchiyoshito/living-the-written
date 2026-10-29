@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">逆行と跳躍、どちらも経験は順に積む</title>
+<desc id="desc">方向が反転しても連続する逆行と、離れた年代へ不連続に移る跳躍を並べ、どちらにも経験の順序があることを見る。</desc>
+<defs><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="630" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     04     図4-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">逆行と跳躍、どちらも経験は順に積む</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">方向が反転しても連続する逆行と、離れた年代へ不連続に移る跳躍を並べ、どちらにも経験の順序があることを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="535.0" height="320.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="317.5" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">『TENET』の逆行</text>
+<rect x="615.0" y="200.0" width="535.0" height="320.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="882.5" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">ヒカリの移動</text>
+<rect x="257.0" y="270.0" width="120.0" height="200.0" rx="12" fill="#ece9e0" stroke="#2b5f9e" stroke-width="1.5"/>
+<text x="110.0" y="286.0" fill="#2f8f83" font-size="17" text-anchor="start" font-weight="700">順行者</text>
+<line x1="110.0" y1="300.0" x2="530.0" y2="300.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="90.0" y="372.0" fill="#2b5f9e" font-size="17" text-anchor="start" font-weight="700">歴史の時間</text>
+<line x1="90.0" y1="380.0" x2="545.0" y2="380.0" stroke="#2b5f9e" stroke-width="2.4" marker-end="url(#arrow-2b5f9e)"/>
+<text x="530.0" y="446.0" fill="#2f8f83" font-size="17" text-anchor="end" font-weight="700">逆行者</text>
+<line x1="530.0" y1="460.0" x2="110.0" y2="460.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="530.0" y="492.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">連続したまま方向が反転</text>
+<text x="317.0" y="348.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">同じ出来事</text>
+<line x1="655.0" y1="380.0" x2="1110.0" y2="380.0" stroke="#2b5f9e" stroke-width="2.4" marker-end="url(#arrow-2b5f9e)"/>
+<line x1="720.0" y1="373.0" x2="720.0" y2="387.0" stroke="#2b5f9e" stroke-width="2"/>
+<text x="720.0" y="416.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">1960</text>
+<line x1="880.0" y1="373.0" x2="880.0" y2="387.0" stroke="#2b5f9e" stroke-width="2"/>
+<text x="880.0" y="416.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">1985</text>
+<line x1="1040.0" y1="373.0" x2="1040.0" y2="387.0" stroke="#2b5f9e" stroke-width="2"/>
+<text x="1040.0" y="416.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">2020</text>
+<path d="M 720 370 Q 880 236 1034 358" fill="none" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="880.0" y="296.0" fill="#2f8f83" font-size="20" text-anchor="middle" font-weight="700">①</text>
+<path d="M 1072 386 Q 965 492 888 388" fill="none" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="962.0" y="468.0" fill="#2f8f83" font-size="20" text-anchor="middle" font-weight="700">②</text>
+<text x="1125.0" y="330.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">不連続に移る</text>
+<rect x="50.0" y="548.0" width="1100.0" height="50.0" rx="12" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.12"/>
+<text x="600.0" y="580.0" fill="#2f8f83" font-size="20" text-anchor="middle" font-weight="700">主観的な経験は順に積み重なる</text>
+</g>
+</svg>

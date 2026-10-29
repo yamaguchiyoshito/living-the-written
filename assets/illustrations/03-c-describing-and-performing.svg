@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">記述する言葉と遂行する言葉</title>
+<desc id="desc">事実を説明する文と、発することで約束を成立させる文を左右に並べ、矢印の種類の違いで二つの働きを見る。</desc>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     03     図3-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">記述する言葉と遂行する言葉</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">事実を説明する文と、発することで約束を成立させる文を左右に並べ、矢印の種類の違いで二つの働きを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="530.0" height="360.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="315.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">記述する言葉</text>
+<rect x="215.0" y="262.0" width="200.0" height="60.0" rx="18" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<path d="M 255.0 322.0 L 249.0 344.0 L 277.0 322.0 Z" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="315.0" y="299.2" fill="#2b5f9e" font-size="20" text-anchor="middle" font-weight="700">雨が降っている</text>
+<rect x="225.0" y="455.0" width="180.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="315.0" y="491.0" fill="#2b5f9e" font-size="20" text-anchor="middle" font-weight="700">世界の状態</text>
+<line x1="315.0" y1="350.0" x2="315.0" y2="449.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="335.0" y="405.0" fill="#2b5f9e" font-size="16" text-anchor="start" font-weight="400">説明する</text>
+<rect x="620.0" y="200.0" width="530.0" height="360.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">遂行する言葉</text>
+<circle cx="715.0" cy="282.0" r="9.600000000000001" fill="#2f8f83"/>
+<ellipse cx="715.0" cy="309.2" rx="8.8" ry="19.2" transform="rotate(-0 715.0 309.2)" fill="#2f8f83"/>
+<line x1="715.0" y1="326.8" x2="697.4" y2="357.2" stroke="#2f8f83" stroke-width="6.4" stroke-linecap="round"/>
+<line x1="715.0" y1="326.8" x2="734.2" y2="352.4" stroke="#2f8f83" stroke-width="6.4" stroke-linecap="round"/>
+<line x1="718.2" y1="299.6" x2="697.4" y2="314.0" stroke="#2f8f83" stroke-width="5.2" stroke-linecap="round"/>
+<line x1="718.2" y1="299.6" x2="735.8" y2="293.2" stroke="#2f8f83" stroke-width="5.2" stroke-linecap="round"/>
+<text x="715.0" y="396.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">条件：権限・慣習</text>
+<rect x="800.0" y="262.0" width="200.0" height="60.0" rx="18" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<path d="M 800.0 295.0 L 778.0 308.8 L 800.0 310.0 Z" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="900.0" y="299.2" fill="#2f8f83" font-size="20" text-anchor="middle" font-weight="700">約束します</text>
+<rect x="795.0" y="455.0" width="210.0" height="56.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="900.0" y="491.0" fill="#2f8f83" font-size="20" text-anchor="middle" font-weight="700">約束が成立する</text>
+<line x1="900.0" y1="326.0" x2="900.0" y2="449.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="920.0" y="395.0" fill="#2f8f83" font-size="16" text-anchor="start" font-weight="400">発言が行為になる</text>
+</g>
+</svg>

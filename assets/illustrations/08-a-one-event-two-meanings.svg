@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">一つの出来事、別々の意味</title>
+<desc id="desc">同じ出来事が二人にとって別の順序に置かれることと、現在の書く行為が過去を物語として生むことを見る。</desc>
+<defs><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-8a4f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a4f9e" stroke-width="1.4"/></marker><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     08     図8-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">一つの出来事、別々の意味</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">同じ出来事が二人にとって別の順序に置かれることと、現在の書く行為が過去を物語として生むことを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="530.0" height="360.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="315.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">他者の時間</text>
+<text x="100.0" y="283.0" fill="#2f8f83" font-size="17" text-anchor="start" font-weight="700">エマノン</text>
+<line x1="100.0" y1="300.0" x2="520.0" y2="300.0" stroke="#2f8f83" stroke-width="3" marker-end="url(#arrow-2f8f83)"/>
+<text x="100.0" y="433.0" fill="#2f8f83" font-size="17" text-anchor="start" font-weight="700">ヒカリ</text>
+<line x1="100.0" y1="450.0" x2="520.0" y2="450.0" stroke="#d8d4c8" stroke-width="3"/>
+<rect x="300.0" y="272.0" width="30.0" height="206.0" rx="6" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.2"/>
+<text x="315.0" y="262.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">同じ出来事</text>
+<text x="340.0" y="291.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">初対面</text>
+<text x="340.0" y="478.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">再会</text>
+<circle cx="450.0" cy="450.0" r="7" fill="#2f8f83"/>
+<text x="450.0" y="478.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">1</text>
+<circle cx="180.0" cy="450.0" r="7" fill="#2f8f83"/>
+<text x="180.0" y="478.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">2</text>
+<circle cx="315.0" cy="450.0" r="7" fill="#2f8f83"/>
+<text x="315.0" y="478.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">3</text>
+<path d="M 440 442 Q 315 370 190 442" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<path d="M 195 462 Q 247 510 300 462" fill="none" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<text x="315.0" y="540.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">時間順とは別の順序で訪れる（1→2→3）</text>
+<rect x="620.0" y="200.0" width="530.0" height="360.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">過去の意味</text>
+<rect x="770.0" y="262.0" width="230.0" height="112.0" rx="14" fill="none" stroke="#8a4f9e" stroke-width="2"/>
+<text x="786.0" y="286.0" fill="#8a4f9e" font-size="16" text-anchor="start" font-weight="700">小説</text>
+<rect x="790.0" y="298.0" width="190.0" height="62.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
+<text x="885.0" y="337.0" fill="#8a4f9e" font-size="19" text-anchor="middle" font-weight="700">二十歳の浜崎正</text>
+<rect x="770.0" y="470.0" width="230.0" height="62.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<text x="885.0" y="509.0" fill="#c7792b" font-size="19" text-anchor="middle" font-weight="700">現在の浜崎正（書く）</text>
+<line x1="860.0" y1="378.0" x2="860.0" y2="464.0" stroke="#8a4f9e" stroke-width="2" marker-end="url(#arrow-8a4f9e)"/>
+<text x="846.0" y="427.0" fill="#232a33" font-size="15" text-anchor="end" font-weight="400">過去が書き手をつくる</text>
+<line x1="910.0" y1="466.0" x2="910.0" y2="380.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-c7792b)" stroke-dasharray="8 7"/>
+<text x="924.0" y="427.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="400">現在が過去を物語にする</text>
+</g>
+</svg>

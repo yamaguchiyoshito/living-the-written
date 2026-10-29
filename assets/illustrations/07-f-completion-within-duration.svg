@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">完成は、持続の停止ではない</title>
+<desc id="desc">完成の境界を越えても経験が記憶として続き、作品は別の関係へ、経験は次の行為へ流れていく形を見る。</desc>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-8a4f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a4f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="650" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     07     図7-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">完成は、持続の停止ではない</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">完成の境界を越えても経験が記憶として続き、作品は別の関係へ、経験は次の行為へ流れていく形を見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="80.0" y="300.0" width="460.0" height="70.0" rx="8" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.3"/>
+<text x="310.0" y="342.0" fill="#2f8f83" font-size="20" text-anchor="middle" font-weight="700">制作の持続</text>
+<rect x="540.0" y="325.0" width="570.0" height="20.0" rx="4" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="560.0" y="312.0" fill="#8a4f9e" font-size="16" text-anchor="start" font-weight="700">記憶として残る経験</text>
+<text x="560.0" y="372.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">持続は止まらない</text>
+<line x1="540.0" y1="240.0" x2="540.0" y2="560.0" stroke="#c7792b" stroke-width="3"/>
+<text x="540.0" y="228.0" fill="#c7792b" font-size="20" text-anchor="middle" font-weight="700">完成</text>
+<text x="552.0" y="264.0" fill="#c7792b" font-size="15" text-anchor="start" font-weight="400">行為は終わる</text>
+<rect x="505.0" y="420.0" width="70.0" height="50.0" rx="0" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="540.0" y="452.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">作品</text>
+<line x1="578.0" y1="455.0" x2="690.0" y2="520.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)"/>
+<text x="625.0" y="502.0" fill="#2b5f9e" font-size="16" text-anchor="start" font-weight="400">別の関係</text>
+<circle cx="730.0" cy="507.0" r="9.600000000000001" fill="#2b5f9e"/>
+<ellipse cx="730.0" cy="534.2" rx="8.8" ry="19.2" transform="rotate(-0 730.0 534.2)" fill="#2b5f9e"/>
+<line x1="730.0" y1="551.8" x2="712.4" y2="582.2" stroke="#2b5f9e" stroke-width="6.4" stroke-linecap="round"/>
+<line x1="730.0" y1="551.8" x2="749.2" y2="577.4" stroke="#2b5f9e" stroke-width="6.4" stroke-linecap="round"/>
+<line x1="733.2" y1="524.6" x2="712.4" y2="539.0" stroke="#2b5f9e" stroke-width="5.2" stroke-linecap="round"/>
+<line x1="733.2" y1="524.6" x2="750.8" y2="518.2" stroke="#2b5f9e" stroke-width="5.2" stroke-linecap="round"/>
+<text x="730.0" y="612.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">読者・鑑賞者</text>
+<path d="M 880 335 Q 980 310 1110 200" fill="none" stroke="#2f8f83" stroke-width="40" opacity="0.3"/>
+<text x="950.0" y="262.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">次の行為</text>
+<line x1="1060.0" y1="323.0" x2="1060.0" y2="262.0" stroke="#8a4f9e" stroke-width="2.5" marker-end="url(#arrow-8a4f9e)"/>
+<text x="1060.0" y="372.0" fill="#8a4f9e" font-size="15" text-anchor="middle" font-weight="400">次の判断を形づくる</text>
+</g>
+</svg>

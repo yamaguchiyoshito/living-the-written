@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">話すヘプタポッドAと書くヘプタポッドB</title>
+<desc id="desc">順番に音を並べるヘプタポッドAと、一つの図形の全体が最初の一筆を決めるヘプタポッドBを並べる。</desc>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="650" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     01     図1-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">話すヘプタポッドAと書くヘプタポッドB</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">順番に音を並べるヘプタポッドAと、一つの図形の全体が最初の一筆を決めるヘプタポッドBを並べる。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="540.0" height="410.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="320.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">ヘプタポッドA・人間の言語</text>
+<rect x="610.0" y="200.0" width="540.0" height="410.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="880.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">ヘプタポッドB</text>
+<line x1="600.0" y1="220.0" x2="600.0" y2="590.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="71.0" y="360.0" width="96.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="119.0" y="396.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">最初の音</text>
+<line x1="171.0" y1="388.0" x2="201.0" y2="388.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)"/>
+<rect x="205.0" y="360.0" width="96.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="253.0" y="396.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">次の音</text>
+<line x1="305.0" y1="388.0" x2="335.0" y2="388.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)"/>
+<rect x="339.0" y="360.0" width="96.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="387.0" y="396.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">…</text>
+<line x1="439.0" y1="388.0" x2="469.0" y2="388.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)"/>
+<rect x="473.0" y="360.0" width="96.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="521.0" y="396.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">最後の音</text>
+<text x="71.0" y="332.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">書きながら次を考えられる</text>
+<line x1="71.0" y1="470.0" x2="569.0" y2="470.0" stroke="#c7792b" stroke-width="2" marker-end="url(#arrow-c7792b)"/>
+<text x="320.0" y="500.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">時間の中で発せられる</text>
+<text x="320.0" y="560.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">部分を順番に積み重ねて全体をつくる</text>
+<circle cx="880.0" cy="390.0" r="135" fill="none" stroke="#2b5f9e" stroke-width="10" opacity="0.16"/>
+<text x="880.0" y="269.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">全体</text>
+<circle cx="880.0" cy="390.0" r="110" fill="none" stroke="#2b5f9e" stroke-width="2.5"/>
+<path d="M 800.0 460.0 Q 880.0 405.0 975.0 450.0" fill="none" stroke="#2b5f9e" stroke-width="2"/>
+<path d="M 925.0 307.0 Q 900.0 405.0 930.0 497.0" fill="none" stroke="#2b5f9e" stroke-width="2"/>
+<line x1="840.9" y1="438.8" x2="818.9" y2="484.8" stroke="#2b5f9e" stroke-width="2"/>
+<line x1="913.8" y1="403.5" x2="961.8" y2="389.5" stroke="#2b5f9e" stroke-width="2"/>
+<path d="M 790.0 450.0 Q 850.0 315.0 965.0 350.0" fill="none" stroke="#2b5f9e" stroke-width="5.5"/>
+<line x1="785.0" y1="295.0" x2="824.0" y2="370.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="883.8" y1="424.0" x2="866.8" y2="367.5" stroke="#2b5f9e" stroke-width="1.8" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="959.8" y1="383.5" x2="935.7" y2="353.3" stroke="#2b5f9e" stroke-width="1.8" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="730.0" y="456.0" fill="#2b5f9e" font-size="16" text-anchor="end" font-weight="700">最初の一筆</text>
+<line x1="736.0" y1="451.0" x2="786.0" y2="450.0" stroke="#2b5f9e" stroke-width="1.2"/>
+<text x="880.0" y="560.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">他の線との位置関係で意味が決まる</text>
+<text x="880.0" y="588.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">書く前に全体がある</text>
+</g>
+</svg>

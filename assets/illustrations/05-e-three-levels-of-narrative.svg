@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+<title id="title">物語が過去をつくる三つの水準</title>
+<desc id="desc">事実・意味・存在の三段の帯と、意味の段から存在の段へ降りる矢印、現実とフィクションの内部を分ける仕切りを見る。</desc>
+<defs><marker id="arrow-8a4f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a4f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="610" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     05     図5-5</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">物語が過去をつくる三つの水準</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">事実・意味・存在の三段の帯と、意味の段から存在の段へ降りる矢印、現実とフィクションの内部を分ける仕切りを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="290.0" y="220.0" width="670.0" height="90.0" rx="12" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.12"/>
+<rect x="290.0" y="220.0" width="670.0" height="90.0" rx="12" fill="none" stroke="#2f8f83" stroke-width="2"/>
+<text x="312.0" y="258.0" fill="#2f8f83" font-size="20" text-anchor="start" font-weight="700">第一　歴史的事実の水準</text>
+<text x="312.0" y="288.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">起きたかどうか／解釈で変えられない</text>
+<rect x="290.0" y="350.0" width="670.0" height="90.0" rx="12" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.12"/>
+<rect x="290.0" y="350.0" width="670.0" height="90.0" rx="12" fill="none" stroke="#2b5f9e" stroke-width="2"/>
+<text x="312.0" y="388.0" fill="#2b5f9e" font-size="20" text-anchor="start" font-weight="700">第二　意味の水準</text>
+<text x="312.0" y="418.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">人生の中での役割／後から変わりうる</text>
+<rect x="290.0" y="480.0" width="670.0" height="90.0" rx="12" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.12"/>
+<rect x="290.0" y="480.0" width="670.0" height="90.0" rx="12" fill="none" stroke="#8a4f9e" stroke-width="2"/>
+<text x="312.0" y="518.0" fill="#8a4f9e" font-size="20" text-anchor="start" font-weight="700">第三　物語内部の存在の水準</text>
+<text x="312.0" y="548.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">記述によって成立する</text>
+<line x1="250.0" y1="405.0" x2="250.0" y2="520.0" stroke="#8a4f9e" stroke-width="2.4" marker-end="url(#arrow-8a4f9e)"/>
+<text x="60.0" y="455.0" fill="#8a4f9e" font-size="16" text-anchor="start" font-weight="400">意味の変化から</text>
+<text x="60.0" y="479.0" fill="#8a4f9e" font-size="16" text-anchor="start" font-weight="400">存在の生成へ</text>
+<rect x="60.0" y="530.0" width="170.0" height="38.0" rx="8" fill="#ffffff" stroke="#c7792b" stroke-width="1.6"/>
+<text x="145.0" y="554.8" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">『ストロボライト』</text>
+<line x1="985.0" y1="214.0" x2="985.0" y2="576.0" stroke="#5d6873" stroke-width="1.6"/>
+<text x="1002.0" y="338.0" fill="#232a33" font-size="19" text-anchor="start" font-weight="700">現実</text>
+<text x="1002.0" y="520.0" fill="#232a33" font-size="17" text-anchor="start" font-weight="700">フィクションの</text>
+<text x="1002.0" y="544.0" fill="#232a33" font-size="17" text-anchor="start" font-weight="700">内部</text>
+</g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">虚構の薬と毒</title>
+<desc id="desc">読者と虚構の距離があるときとないときで、同じ虚構が何をもたらすかを見る。</desc>
+<defs><marker id="arrow-c7792b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#c7792b" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     06     図6-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">虚構の薬と毒</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">読者と虚構の距離があるときとないときで、同じ虚構が何をもたらすかを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="530.0" height="430.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="315.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">薬：距離がある</text>
+<rect x="80.0" y="270.0" width="200.0" height="250.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
+<text x="95.0" y="298.0" fill="#8a4f9e" font-size="18" text-anchor="start" font-weight="700">虚構</text>
+<circle cx="140.7" cy="388.0" r="8.399999999999999" fill="#232a33"/>
+<ellipse cx="140.3" cy="411.8" rx="7.7" ry="16.8" transform="rotate(-2 140.3 411.8)" fill="#232a33"/>
+<line x1="140.0" y1="427.2" x2="124.6" y2="453.8" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="140.0" y1="427.2" x2="156.8" y2="449.6" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="142.8" y1="403.4" x2="124.6" y2="416.0" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="142.8" y1="403.4" x2="158.2" y2="397.8" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="199.3" cy="388.0" r="8.399999999999999" fill="#232a33"/>
+<ellipse cx="199.7" cy="411.8" rx="7.7" ry="16.8" transform="rotate(2 199.7 411.8)" fill="#232a33"/>
+<line x1="200.0" y1="427.2" x2="184.6" y2="453.8" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="200.0" y1="427.2" x2="216.8" y2="449.6" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="202.8" y1="403.4" x2="184.6" y2="416.0" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="202.8" y1="403.4" x2="218.2" y2="397.8" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="170.0" cy="400.0" r="8" fill="#c7792b"/>
+<text x="170.0" y="375.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="700">苦痛</text>
+<text x="180.0" y="500.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">二人には自分の世界の出来事</text>
+<circle cx="470.0" cy="329.0" r="10.2" fill="#2f8f83"/>
+<ellipse cx="470.0" cy="357.9" rx="9.3" ry="20.4" transform="rotate(-0 470.0 357.9)" fill="#2f8f83"/>
+<line x1="470.0" y1="376.6" x2="451.3" y2="408.9" stroke="#2f8f83" stroke-width="6.8" stroke-linecap="round"/>
+<line x1="470.0" y1="376.6" x2="490.4" y2="403.8" stroke="#2f8f83" stroke-width="6.8" stroke-linecap="round"/>
+<line x1="473.4" y1="347.7" x2="451.3" y2="363.0" stroke="#2f8f83" stroke-width="5.5" stroke-linecap="round"/>
+<line x1="473.4" y1="347.7" x2="492.1" y2="340.9" stroke="#2f8f83" stroke-width="5.5" stroke-linecap="round"/>
+<text x="492.0" y="336.0" fill="#2f8f83" font-size="16" text-anchor="start" font-weight="700">読者</text>
+<text x="470.0" y="450.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">読者には物語の中の出来事</text>
+<line x1="363.0" y1="330.0" x2="296.0" y2="330.0" stroke="#c7792b" stroke-width="2.2" marker-end="url(#arrow-c7792b)"/>
+<line x1="363.0" y1="330.0" x2="430.0" y2="330.0" stroke="#c7792b" stroke-width="2.2" marker-end="url(#arrow-c7792b)"/>
+<text x="363.0" y="316.0" fill="#c7792b" font-size="17" text-anchor="middle" font-weight="700">距離</text>
+<rect x="380.0" y="476.0" width="190.0" height="50.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="475.0" y="509.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">現実の構造が見える</text>
+<line x1="282.0" y1="501.0" x2="376.0" y2="501.0" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
+<rect x="620.0" y="200.0" width="530.0" height="430.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">毒：距離を忘れる</text>
+<rect x="650.0" y="270.0" width="200.0" height="250.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2"/>
+<text x="665.0" y="298.0" fill="#8a4f9e" font-size="18" text-anchor="start" font-weight="700">虚構</text>
+<circle cx="710.7" cy="388.0" r="8.399999999999999" fill="#232a33"/>
+<ellipse cx="710.4" cy="411.8" rx="7.7" ry="16.8" transform="rotate(-2 710.4 411.8)" fill="#232a33"/>
+<line x1="710.0" y1="427.2" x2="694.6" y2="453.8" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="710.0" y1="427.2" x2="726.8" y2="449.6" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="712.8" y1="403.4" x2="694.6" y2="416.0" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="712.8" y1="403.4" x2="728.2" y2="397.8" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="769.3" cy="388.0" r="8.399999999999999" fill="#232a33"/>
+<ellipse cx="769.6" cy="411.8" rx="7.7" ry="16.8" transform="rotate(2 769.6 411.8)" fill="#232a33"/>
+<line x1="770.0" y1="427.2" x2="754.6" y2="453.8" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="770.0" y1="427.2" x2="786.8" y2="449.6" stroke="#232a33" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="772.8" y1="403.4" x2="754.6" y2="416.0" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="772.8" y1="403.4" x2="788.2" y2="397.8" stroke="#232a33" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="740.0" cy="400.0" r="8" fill="#c7792b"/>
+<text x="740.0" y="375.0" fill="#c7792b" font-size="14" text-anchor="middle" font-weight="700">苦痛</text>
+<text x="750.0" y="500.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">二人には自分の世界の出来事</text>
+<circle cx="885.0" cy="329.0" r="10.2" fill="#2f8f83"/>
+<ellipse cx="885.0" cy="357.9" rx="9.3" ry="20.4" transform="rotate(-0 885.0 357.9)" fill="#2f8f83"/>
+<line x1="885.0" y1="376.6" x2="866.3" y2="408.9" stroke="#2f8f83" stroke-width="6.8" stroke-linecap="round"/>
+<line x1="885.0" y1="376.6" x2="905.4" y2="403.8" stroke="#2f8f83" stroke-width="6.8" stroke-linecap="round"/>
+<line x1="888.4" y1="347.7" x2="866.3" y2="363.0" stroke="#2f8f83" stroke-width="5.5" stroke-linecap="round"/>
+<line x1="888.4" y1="347.7" x2="907.1" y2="340.9" stroke="#2f8f83" stroke-width="5.5" stroke-linecap="round"/>
+<text x="907.0" y="336.0" fill="#2f8f83" font-size="16" text-anchor="start" font-weight="700">読者</text>
+<text x="866.0" y="450.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">読者には物語の中の出来事</text>
+<rect x="900.0" y="476.0" width="200.0" height="50.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="1000.0" y="509.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">苦痛を物語として消費</text>
+<line x1="852.0" y1="501.0" x2="896.0" y2="501.0" stroke="#2b5f9e" stroke-width="2.2" marker-end="url(#arrow-2b5f9e)"/>
+<rect x="655.0" y="545.0" width="190.0" height="50.0" rx="14" fill="#ffffff" stroke="#8a4f9e" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="750.0" y="578.0" fill="#8a4f9e" font-size="15" text-anchor="middle" font-weight="700">不条理・偶然が隠れる</text>
+</g>
+</svg>

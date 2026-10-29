@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">経験の方向と解釈の方向</title>
+<desc id="desc">人生の線の上を過去から未来へ進む経験の矢印と、現在から過去へ戻る解釈の矢印を見る。</desc>
+<defs><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="630" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     02     図2-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">経験の方向と解釈の方向</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">人生の線の上を過去から未来へ進む経験の矢印と、現在から過去へ戻る解釈の矢印を見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="120.0" y1="385.0" x2="1080.0" y2="385.0" stroke="#5d6873" stroke-width="2"/>
+<text x="1092.0" y="391.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">人生</text>
+<circle cx="250.0" cy="385.0" r="12" fill="#2f8f83"/>
+<text x="250.0" y="361.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="400">出来事</text>
+<circle cx="420.0" cy="385.0" r="12" fill="#2f8f83"/>
+<text x="420.0" y="361.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="400">出来事</text>
+<circle cx="590.0" cy="385.0" r="12" fill="#2f8f83"/>
+<text x="590.0" y="361.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="400">出来事</text>
+<circle cx="760.0" cy="385.0" r="12" fill="#2f8f83"/>
+<text x="760.0" y="361.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="400">出来事</text>
+<circle cx="960.0" cy="385.0" r="14" fill="#c7792b"/>
+<text x="960.0" y="359.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">現在</text>
+<line x1="180.0" y1="285.0" x2="1020.0" y2="285.0" stroke="#2f8f83" stroke-width="3" marker-end="url(#arrow-2f8f83)"/>
+<text x="600.0" y="260.0" fill="#2f8f83" font-size="18" text-anchor="middle" font-weight="700">経験の方向　出来事が順番に生じる</text>
+<line x1="960.0" y1="405.0" x2="960.0" y2="503.0" stroke="#2b5f9e" stroke-width="1.6" stroke-dasharray="8 7"/>
+<line x1="960.0" y1="505.0" x2="180.0" y2="505.0" stroke="#2b5f9e" stroke-width="2.4" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="250.0" y1="503.0" x2="250.0" y2="409.0" stroke="#2b5f9e" stroke-width="1.4" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="420.0" y1="503.0" x2="420.0" y2="409.0" stroke="#2b5f9e" stroke-width="1.4" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="590.0" y1="503.0" x2="590.0" y2="409.0" stroke="#2b5f9e" stroke-width="1.4" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="760.0" y1="503.0" x2="760.0" y2="409.0" stroke="#2b5f9e" stroke-width="1.4" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="505.0" y="470.0" fill="#2b5f9e" font-size="15" text-anchor="middle" font-weight="400">振り返る</text>
+<text x="600.0" y="540.0" fill="#2b5f9e" font-size="18" text-anchor="middle" font-weight="700">解釈の方向　後の出来事に照らして意味を改める</text>
+<text x="1130.0" y="578.0" fill="#232a33" font-size="15" text-anchor="end" font-weight="400">順番に生きる。意味は順番どおりに決まらない</text>
+<text x="50.0" y="602.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">青緑＝経験・生きること、青＝認識・知ること、琥珀＝現在</text>
+</g>
+</svg>

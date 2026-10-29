@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">30億年の記憶は一方向に積み重なる</title>
+<desc id="desc">人間の記憶との長さの違いと、記憶が一方向にだけ積み重なって過去へ戻れない構造を見る。</desc>
+<defs><marker id="arrow-8a4f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a4f9e" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="560" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#8a4f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     04     図4-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">30億年の記憶は一方向に積み重なる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">人間の記憶との長さの違いと、記憶が一方向にだけ積み重なって過去へ戻れない構造を見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="100.0" y="222.0" width="24.0" height="14.0" rx="7" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.6"/>
+<text x="136.0" y="235.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">人間の記憶：数十年</text>
+<text x="760.0" y="262.0" fill="#c7792b" font-size="19" text-anchor="middle" font-weight="700">いま</text>
+<line x1="760.0" y1="272.0" x2="760.0" y2="462.0" stroke="#c7792b" stroke-width="3"/>
+<text x="100.0" y="298.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">受け継がれた記憶</text>
+<rect x="100.0" y="310.0" width="660.0" height="60.0" rx="10" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.22"/>
+<text x="118.0" y="347.0" fill="#8a4f9e" font-size="19" text-anchor="start" font-weight="700">30億年の記憶</text>
+<circle cx="330.0" cy="322.0" r="6.0" fill="#232a33"/>
+<ellipse cx="330.0" cy="339.0" rx="5.5" ry="12.0" transform="rotate(-0 330.0 339.0)" fill="#232a33"/>
+<line x1="330.0" y1="350.0" x2="319.0" y2="369.0" stroke="#232a33" stroke-width="4.0" stroke-linecap="round"/>
+<line x1="330.0" y1="350.0" x2="342.0" y2="366.0" stroke="#232a33" stroke-width="4.0" stroke-linecap="round"/>
+<line x1="332.0" y1="333.0" x2="319.0" y2="342.0" stroke="#232a33" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="332.0" y1="333.0" x2="343.0" y2="329.0" stroke="#232a33" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="336.0" y1="318.0" x2="756.0" y2="300.0" stroke="#8a4f9e" stroke-width="1.4"/>
+<circle cx="470.0" cy="322.0" r="6.0" fill="#232a33"/>
+<ellipse cx="470.0" cy="339.0" rx="5.5" ry="12.0" transform="rotate(-0 470.0 339.0)" fill="#232a33"/>
+<line x1="470.0" y1="350.0" x2="459.0" y2="369.0" stroke="#232a33" stroke-width="4.0" stroke-linecap="round"/>
+<line x1="470.0" y1="350.0" x2="482.0" y2="366.0" stroke="#232a33" stroke-width="4.0" stroke-linecap="round"/>
+<line x1="472.0" y1="333.0" x2="459.0" y2="342.0" stroke="#232a33" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="472.0" y1="333.0" x2="483.0" y2="329.0" stroke="#232a33" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="476.0" y1="318.0" x2="756.0" y2="292.0" stroke="#8a4f9e" stroke-width="1.4"/>
+<circle cx="610.0" cy="322.0" r="6.0" fill="#232a33"/>
+<ellipse cx="610.0" cy="339.0" rx="5.5" ry="12.0" transform="rotate(-0 610.0 339.0)" fill="#232a33"/>
+<line x1="610.0" y1="350.0" x2="599.0" y2="369.0" stroke="#232a33" stroke-width="4.0" stroke-linecap="round"/>
+<line x1="610.0" y1="350.0" x2="622.0" y2="366.0" stroke="#232a33" stroke-width="4.0" stroke-linecap="round"/>
+<line x1="612.0" y1="333.0" x2="599.0" y2="342.0" stroke="#232a33" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="612.0" y1="333.0" x2="623.0" y2="329.0" stroke="#232a33" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="616.0" y1="318.0" x2="756.0" y2="284.0" stroke="#8a4f9e" stroke-width="1.4"/>
+<text x="470.0" y="395.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="400">出会った人々</text>
+<text x="100.0" y="395.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">生命の起源</text>
+<line x1="754.0" y1="395.0" x2="700.0" y2="395.0" stroke="#8a4f9e" stroke-width="2" marker-end="url(#arrow-8a4f9e)"/>
+<line x1="720.0" y1="388.0" x2="734.0" y2="402.0" stroke="#8a4f9e" stroke-width="2.6"/>
+<line x1="720.0" y1="402.0" x2="734.0" y2="388.0" stroke="#8a4f9e" stroke-width="2.6"/>
+<text x="727.0" y="420.0" fill="#8a4f9e" font-size="15" text-anchor="middle" font-weight="700">戻れない</text>
+<rect x="790.0" y="310.0" width="330.0" height="60.0" rx="10" fill="none" stroke="#2f8f83" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="955.0" y="347.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="400">まだ経験していない未来</text>
+<line x1="100.0" y1="448.0" x2="750.0" y2="448.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="430.0" y="474.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="700">一方向</text>
+<text x="50.0" y="532.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">逐次的認識：出来事を順番に知っていく形は、記憶の長さが変わっても変わらない。</text>
+</g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+<title id="title">屈折の二つの説明</title>
+<desc id="desc">空気から水へ入る光の経路を、境界での角度で説明する図と、始点から終点までの経路全体の所要時間で説明する図を並べて見る。</desc>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="740" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     02     図2-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">屈折の二つの説明</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">空気から水へ入る光の経路を、境界での角度で説明する図と、始点から終点までの経路全体の所要時間で説明する図を並べて見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="530.0" height="490.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="315.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">境界での条件（局所）</text>
+<rect x="80.0" y="465.0" width="470.0" height="215.0" rx="0" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<line x1="80.0" y1="465.0" x2="550.0" y2="465.0" stroke="#5d6873" stroke-width="1.6"/>
+<text x="90.0" y="450.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">空気</text>
+<text x="90.0" y="492.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">水</text>
+<text x="545.0" y="452.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">境界面</text>
+<circle cx="140.0" cy="285.0" r="7" fill="#232a33"/>
+<circle cx="450.0" cy="645.0" r="7" fill="#232a33"/>
+<text x="124.0" y="292.0" fill="#232a33" font-size="18" text-anchor="end" font-weight="700">A</text>
+<text x="466.0" y="652.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">B</text>
+<line x1="140.0" y1="285.0" x2="330.0" y2="465.0" stroke="#2b5f9e" stroke-width="3"/>
+<line x1="330.0" y1="465.0" x2="450.0" y2="645.0" stroke="#2b5f9e" stroke-width="3" marker-end="url(#arrow-2b5f9e)"/>
+<line x1="330.0" y1="390.0" x2="330.0" y2="540.0" stroke="#5d6873" stroke-width="1.4" stroke-dasharray="8 7"/>
+<text x="338.0" y="403.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">垂線</text>
+<path d="M 330.0 413.0 A 52 52 0 0 0 292.3 429.2" fill="none" stroke="#2b5f9e" stroke-width="1.8"/>
+<path d="M 330.0 517.0 A 52 52 0 0 0 358.8 508.3" fill="none" stroke="#2b5f9e" stroke-width="1.8"/>
+<text x="300.0" y="405.0" fill="#2b5f9e" font-size="15" text-anchor="end" font-weight="400">入射側の角度</text>
+<text x="396.0" y="531.0" fill="#2b5f9e" font-size="15" text-anchor="start" font-weight="400">屈折側の角度</text>
+<circle cx="330.0" cy="465.0" r="9" fill="#c7792b"/>
+<text x="312.0" y="501.0" fill="#c7792b" font-size="15" text-anchor="end" font-weight="400">手前の状況だけを見る</text>
+<rect x="620.0" y="200.0" width="530.0" height="490.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">経路全体の条件（全体）</text>
+<rect x="650.0" y="465.0" width="470.0" height="215.0" rx="0" fill="#ece9e0" stroke="none" stroke-width="0"/>
+<line x1="650.0" y1="465.0" x2="1120.0" y2="465.0" stroke="#5d6873" stroke-width="1.6"/>
+<text x="660.0" y="450.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">空気</text>
+<text x="660.0" y="492.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">水</text>
+<text x="1115.0" y="452.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">境界面</text>
+<circle cx="710.0" cy="285.0" r="7" fill="#232a33"/>
+<circle cx="1020.0" cy="645.0" r="7" fill="#232a33"/>
+<text x="694.0" y="292.0" fill="#232a33" font-size="18" text-anchor="end" font-weight="700">A</text>
+<text x="1036.0" y="652.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">B</text>
+<line x1="710.0" y1="285.0" x2="780.0" y2="465.0" stroke="#9db6d4" stroke-width="1.5"/>
+<line x1="780.0" y1="465.0" x2="1020.0" y2="645.0" stroke="#9db6d4" stroke-width="1.5"/>
+<line x1="710.0" y1="285.0" x2="865.0" y2="465.0" stroke="#9db6d4" stroke-width="1.5"/>
+<line x1="865.0" y1="465.0" x2="1020.0" y2="645.0" stroke="#9db6d4" stroke-width="1.5"/>
+<line x1="710.0" y1="285.0" x2="1000.0" y2="465.0" stroke="#9db6d4" stroke-width="1.5"/>
+<line x1="1000.0" y1="465.0" x2="1020.0" y2="645.0" stroke="#9db6d4" stroke-width="1.5"/>
+<line x1="710.0" y1="285.0" x2="900.0" y2="465.0" stroke="#2b5f9e" stroke-width="3.4"/>
+<line x1="900.0" y1="465.0" x2="1020.0" y2="645.0" stroke="#2b5f9e" stroke-width="3.4" marker-end="url(#arrow-2b5f9e)"/>
+<line x1="930.0" y1="300.0" x2="968.0" y2="300.0" stroke="#2b5f9e" stroke-width="3.4"/>
+<text x="978.0" y="306.0" fill="#2b5f9e" font-size="16" text-anchor="start" font-weight="700">実際の経路</text>
+<text x="978.0" y="330.0" fill="#2b5f9e" font-size="15" text-anchor="start" font-weight="400">所要時間が停留する経路</text>
+<line x1="930.0" y1="360.0" x2="968.0" y2="360.0" stroke="#9db6d4" stroke-width="1.5"/>
+<text x="978.0" y="366.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">候補の経路</text>
+<text x="990.0" y="677.0" fill="#2b5f9e" font-size="15" text-anchor="middle" font-weight="400">終点まで含めて決まる</text>
+<text x="50.0" y="712.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">青＝記述、琥珀＝いま手前にある状況</text>
+</g>
+</svg>

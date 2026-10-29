@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">逐次的認識と同時的認識</title>
+<desc id="desc">過去を記憶し未来を予測する逐次的認識と、出来事の全体を既知として持つ同時的認識を、二本の時間帯で対照する。</desc>
+<defs><marker id="arrow-8a4f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a4f9e" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-232a33" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="800" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     01     図1-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">逐次的認識と同時的認識</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">過去を記憶し未来を予測する逐次的認識と、出来事の全体を既知として持つ同時的認識を、二本の時間帯で対照する。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="1100.0" height="260.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="600.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">逐次的認識</text>
+<rect x="90.0" y="320.0" width="470.0" height="40.0" rx="20.0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.75"/>
+<rect x="624.0" y="320.0" width="486.0" height="40.0" rx="20.0" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.28"/>
+<rect x="580.0" y="312.0" width="24.0" height="56.0" rx="6" fill="#c7792b" stroke="none" stroke-width="0"/>
+<text x="325.0" y="302.0" fill="#8a4f9e" font-size="17" text-anchor="middle" font-weight="700">過去＝記憶の対象</text>
+<text x="867.0" y="302.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">未来＝予測の対象</text>
+<circle cx="592.0" cy="261.0" r="6.6000000000000005" fill="#2f8f83"/>
+<ellipse cx="592.0" cy="279.7" rx="6.1" ry="13.2" transform="rotate(-0 592.0 279.7)" fill="#2f8f83"/>
+<line x1="592.0" y1="291.8" x2="579.9" y2="312.7" stroke="#2f8f83" stroke-width="4.4" stroke-linecap="round"/>
+<line x1="592.0" y1="291.8" x2="605.2" y2="309.4" stroke="#2f8f83" stroke-width="4.4" stroke-linecap="round"/>
+<line x1="594.2" y1="273.1" x2="579.9" y2="283.0" stroke="#2f8f83" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="594.2" y1="273.1" x2="606.3" y2="268.7" stroke="#2f8f83" stroke-width="3.6" stroke-linecap="round"/>
+<text x="592.0" y="386.0" fill="#c7792b" font-size="17" text-anchor="middle" font-weight="700">現在</text>
+<line x1="200.0" y1="406.0" x2="570.0" y2="406.0" stroke="#8a4f9e" stroke-width="2" marker-end="url(#arrow-8a4f9e)"/>
+<line x1="614.0" y1="406.0" x2="1000.0" y2="406.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="110.0" y="444.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">原因</text>
+<line x1="150.0" y1="438.0" x2="230.0" y2="438.0" stroke="#232a33" stroke-width="1.8" marker-end="url(#arrow-232a33)"/>
+<text x="240.0" y="444.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">結果</text>
+<text x="1110.0" y="444.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">情報は経験とともに増える</text>
+<rect x="50.0" y="480.0" width="1100.0" height="290.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="600.0" y="514.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">同時的認識</text>
+<rect x="70.0" y="560.0" width="1060.0" height="80.0" rx="12" fill="none" stroke="#2b5f9e" stroke-width="1.5" stroke-dasharray="8 7"/>
+<rect x="90.0" y="580.0" width="1020.0" height="40.0" rx="20.0" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.55"/>
+<text x="70.0" y="552.0" fill="#2b5f9e" font-size="15" text-anchor="start" font-weight="400">出来事全体の関係</text>
+<text x="600.0" y="552.0" fill="#2b5f9e" font-size="17" text-anchor="middle" font-weight="700">過去も未来も既知</text>
+<line x1="150.0" y1="570.0" x2="560.0" y2="570.0" stroke="#2b5f9e" stroke-width="1.8" marker-end="url(#arrow-2b5f9e)"/>
+<line x1="1050.0" y1="570.0" x2="640.0" y2="570.0" stroke="#2b5f9e" stroke-width="1.8" marker-end="url(#arrow-2b5f9e)"/>
+<polygon points="600.0,688.0 90.0,580.0 1110.0,580.0" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.14"/>
+<line x1="600.0" y1="688.0" x2="90.0" y2="580.0" stroke="#2f8f83" stroke-width="1.2" opacity="0.6"/>
+<line x1="600.0" y1="688.0" x2="1110.0" y2="580.0" stroke="#2f8f83" stroke-width="1.2" opacity="0.6"/>
+<circle cx="600.0" cy="698.0" r="8.399999999999999" fill="#2f8f83"/>
+<ellipse cx="600.0" cy="721.8" rx="7.7" ry="16.8" transform="rotate(-0 600.0 721.8)" fill="#2f8f83"/>
+<line x1="600.0" y1="737.2" x2="584.6" y2="763.8" stroke="#2f8f83" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="600.0" y1="737.2" x2="616.8" y2="759.6" stroke="#2f8f83" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="602.8" y1="713.4" x2="584.6" y2="726.0" stroke="#2f8f83" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="602.8" y1="713.4" x2="618.2" y2="707.8" stroke="#2f8f83" stroke-width="4.5" stroke-linecap="round"/>
+<text x="1110.0" y="750.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">同じ瞬間に感じることではない</text>
+</g>
+</svg>

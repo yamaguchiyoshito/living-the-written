@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">知っていること、それでも生きること</title>
+<desc id="desc">五つの人物について、知っていることの隣に、それでも省略できない行為を並べて見る。</desc>
+<defs><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="680" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     08     図8-5</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">知っていること、それでも生きること</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">五つの人物について、知っていることの隣に、それでも省略できない行為を並べて見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="215.0" y="212.0" width="360.0" height="44.0" rx="8" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.16"/>
+<text x="395.0" y="241.0" fill="#2b5f9e" font-size="19" text-anchor="middle" font-weight="700">知っていること</text>
+<rect x="680.0" y="212.0" width="450.0" height="44.0" rx="8" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.16"/>
+<text x="905.0" y="241.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">それでも省略できないこと</text>
+<text x="70.0" y="309.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">ルイーズ</text>
+<rect x="215.0" y="276.0" width="360.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="395.0" y="309.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">娘を失う日</text>
+<line x1="581.0" y1="303.0" x2="672.0" y2="303.0" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<rect x="680.0" y="276.0" width="450.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="905.0" y="309.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">娘を抱き、共に生きる</text>
+<text x="70.0" y="371.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">エレン</text>
+<rect x="215.0" y="338.0" width="360.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="395.0" y="371.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">既知の未来</text>
+<line x1="581.0" y1="365.0" x2="672.0" y2="365.0" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<rect x="680.0" y="338.0" width="450.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="905.0" y="371.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">自分の欲望で実現する</text>
+<text x="70.0" y="433.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">ヒカリ</text>
+<rect x="215.0" y="400.0" width="360.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="395.0" y="433.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">未来のエマノン</text>
+<line x1="581.0" y1="427.0" x2="672.0" y2="427.0" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<rect x="680.0" y="400.0" width="450.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="905.0" y="433.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">いまの出会いを経験する</text>
+<text x="70.0" y="495.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">わかめとなみ</text>
+<rect x="215.0" y="462.0" width="360.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="395.0" y="495.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">自分たちは虚構</text>
+<line x1="581.0" y1="489.0" x2="672.0" y2="489.0" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<rect x="680.0" y="462.0" width="450.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="905.0" y="495.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">物語の中で行為し続ける</text>
+<text x="70.0" y="557.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">画家</text>
+<rect x="215.0" y="524.0" width="360.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="395.0" y="557.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">描き終えた絵</text>
+<line x1="581.0" y1="551.0" x2="672.0" y2="551.0" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<rect x="680.0" y="524.0" width="450.0" height="54.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="905.0" y="557.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="400">百夜を描き続ける</text>
+<rect x="215.0" y="606.0" width="915.0" height="42.0" rx="8" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.15"/>
+<text x="672.5" y="634.0" fill="#c7792b" font-size="19" text-anchor="middle" font-weight="700">結末を知ることは結末まで生きたことではない</text>
+</g>
+</svg>

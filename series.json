@@ -1,0 +1,210 @@
+{
+  "id": "living-the-written",
+  "code": "LIVING THE WRITTEN",
+  "index": "README.md",
+  "title": "書かれたものを生きる",
+  "subtitle": "時間・因果・自由・記憶・物語・虚構・持続の哲学、全8回",
+  "language": "ja",
+  "version": "1.0.0",
+  "tagline": "すべてが決まっていたとしても、すべてはまだ生きられていない。",
+  "parts": [
+    {
+      "number": "I",
+      "title": "時間と因果と自由",
+      "chapters": [
+        1,
+        3
+      ]
+    },
+    {
+      "number": "II",
+      "title": "記憶と物語",
+      "chapters": [
+        4,
+        5
+      ]
+    },
+    {
+      "number": "III",
+      "title": "虚構と持続と存在",
+      "chapters": [
+        6,
+        8
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "perception-of-time",
+      "title": "時間は流れているのか、それとも私たちが流しているのか",
+      "subtitle": "『あなたの人生の物語』と言語がつくる時間",
+      "summary": "テッド・チャン『あなたの人生の物語』を手がかりに、時間が流れているのか、私たちが出来事を順番に認識しているだけなのかを問う。逐次的認識と同時的認識を区別し、連載の出発点を置く。",
+      "path": "chapters/01-perception-of-time.md",
+      "sources": [
+        "chiang-story"
+      ],
+      "figures": [
+        "assets/illustrations/01-a-film-and-audience.svg",
+        "assets/illustrations/01-b-heptapod-a-and-b.svg",
+        "assets/illustrations/01-c-sequential-and-simultaneous.svg",
+        "assets/illustrations/01-d-prediction-and-memory.svg",
+        "assets/illustrations/01-e-unknown-and-nonexistent.svg"
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "causality-and-teleology",
+      "title": "原因は本当に結果より先にあるのか",
+      "subtitle": "変分原理と『進撃の巨人』の因果ループ",
+      "summary": "フェルマーの原理と変分原理、『進撃の巨人』の因果ループから、原因が結果に先立つという理解を問い直す。未来の条件で現象を記述できることと、未来が過去に影響することは別だと確かめる。",
+      "path": "chapters/02-causality-and-teleology.md",
+      "sources": [
+        "chiang-story",
+        "isayama-aot"
+      ],
+      "figures": [
+        "assets/illustrations/02-a-fermat-two-descriptions.svg",
+        "assets/illustrations/02-b-local-law-and-whole-path.svg",
+        "assets/illustrations/02-c-path-integral-superposition.svg",
+        "assets/illustrations/02-d-causal-loop.svg",
+        "assets/illustrations/02-e-resignation-meaning-from-outcome.svg",
+        "assets/illustrations/02-f-living-forward-understanding-backward.svg"
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "free-will-and-fate",
+      "title": "未来を知っていても、人は自由でいられるのか",
+      "subtitle": "ルイーズとエレン、運命を遂行する自由意志",
+      "summary": "未来を知るルイーズと、未来を知りながら自由を求めるエレンを並べ、未来が決まっていることと自分の意志で行為することが矛盾しないかを考える。未来を知ることと、その未来を生きることの違いを示す。",
+      "path": "chapters/03-free-will-and-fate.md",
+      "sources": [
+        "chiang-story",
+        "isayama-aot",
+        "austin-words"
+      ],
+      "figures": [
+        "assets/illustrations/03-a-two-senses-of-freedom.svg",
+        "assets/illustrations/03-b-knowing-and-living.svg",
+        "assets/illustrations/03-c-describing-and-performing.svg",
+        "assets/illustrations/03-d-desire-enacts-fate.svg",
+        "assets/illustrations/03-e-louise-and-eren.svg",
+        "assets/illustrations/03-f-description-and-act.svg"
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "memory-and-relationships",
+      "title": "同じ時間を生きなければ、共に生きられないのか",
+      "subtitle": "『たゆたいエマノン』と、すれ違う記憶の哲学",
+      "summary": "『たゆたいエマノン』のエマノンとヒカリを通じて、同じ時間を同じ順序で生きていない二人が共に生きられるかを問う。記憶の非対称と再会の意味から、他者が自分の時間の外側にいることを考える。",
+      "path": "chapters/04-memory-and-relationships.md",
+      "sources": [
+        "kajio-emanon",
+        "nolan-tenet"
+      ],
+      "figures": [
+        "assets/illustrations/04-a-emanon-one-way-memory.svg",
+        "assets/illustrations/04-b-years-and-order.svg",
+        "assets/illustrations/04-c-inversion-and-leaps.svg",
+        "assets/illustrations/04-d-first-meeting-and-reunion.svg",
+        "assets/illustrations/04-e-same-present-different-time.svg",
+        "assets/illustrations/04-f-date-fixed-meaning-moves.svg"
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "narrative-and-the-past",
+      "title": "過去は終わったのに、なぜ書き換わるのか",
+      "subtitle": "『ストロボライト』と、物語が過去を生む逆説",
+      "summary": "『ストロボライト』を手がかりに、過去の出来事は変わらないのに過去の意味が変わる理由を考える。間テクスト性と、書く者と書かれる者の関係から、現在の物語が過去の自己を成立させる構造を示す。",
+      "path": "chapters/05-narrative-and-the-past.md",
+      "sources": [
+        "isayama-aot",
+        "aoyama-strobolight",
+        "kristeva-semeiotike",
+        "genette-palimpsestes"
+      ],
+      "figures": [
+        "assets/illustrations/05-a-event-and-meaning.svg",
+        "assets/illustrations/05-b-later-work-rereads-earlier.svg",
+        "assets/illustrations/05-c-genette-five-relations.svg",
+        "assets/illustrations/05-d-writing-and-written-hamasaki.svg",
+        "assets/illustrations/05-e-three-levels-of-narrative.svg",
+        "assets/illustrations/05-f-written-self-catches-up.svg"
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "ontology-of-fiction",
+      "title": "虚構だと知れば、その世界から自由になれるのか",
+      "subtitle": "『シン・エヴァンゲリオン』と『わかめとなみとむげんのものがたり』の存在論",
+      "summary": "『シン・エヴァンゲリオン劇場版』と『わかめとなみとむげんのものがたり』を並べ、自分が虚構の登場人物だと知った人物がその世界から自由になれるかを問う。知ることと生きることの違いを示す。",
+      "path": "chapters/06-ontology-of-fiction.md",
+      "sources": [
+        "isayama-aot",
+        "aoyama-strobolight",
+        "anno-shin-eva",
+        "little-thunder-wakame"
+      ],
+      "figures": [
+        "assets/illustrations/06-a-three-levels-of-being.svg",
+        "assets/illustrations/06-b-exit-inside-the-screen.svg",
+        "assets/illustrations/06-c-worlds-multiply-structure-repeats.svg",
+        "assets/illustrations/06-d-knowing-fate-knowing-author.svg",
+        "assets/illustrations/06-e-fictional-pain-persists.svg",
+        "assets/illustrations/06-f-fiction-as-remedy-and-poison.svg",
+        "assets/illustrations/06-g-knowing-inside-the-story.svg"
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "duration-and-incompletion",
+      "title": "なぜ完成させることが、失うことになるのか",
+      "subtitle": "ベルクソンの持続と、描き終えないことの存在論",
+      "summary": "池永康晟の画集とベルクソンの持続を手がかりに、完成させることで何が失われるのかを考える。未完了の時間に成立する関係と、完成による関係の変化を区別する。",
+      "path": "chapters/07-duration-and-incompletion.md",
+      "sources": [
+        "aoyama-strobolight",
+        "anno-shin-eva",
+        "ikenaga-hyakuya",
+        "bergson-essai",
+        "bergson-mm"
+      ],
+      "figures": [
+        "assets/illustrations/07-a-perfective-and-imperfective.svg",
+        "assets/illustrations/07-b-relation-lost-at-completion.svg",
+        "assets/illustrations/07-c-hundred-nights-as-duration.svg",
+        "assets/illustrations/07-d-memory-and-writing-the-past.svg",
+        "assets/illustrations/07-e-living-and-stalled-incompletion.svg",
+        "assets/illustrations/07-f-completion-within-duration.svg"
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "living-the-written",
+      "title": "すべてが決まっていても、なぜ私たちは生き続けるのか",
+      "subtitle": "時間・因果・自由・記憶・物語・虚構・持続の哲学",
+      "summary": "七つの議論を束ね、すべてが決まっていてもなぜ生き続けるのかを問う。記述は経験を代替せず、確定した人生もまだ生きられていないという結論へ至る。",
+      "path": "chapters/08-living-the-written.md",
+      "sources": [
+        "chiang-story",
+        "isayama-aot",
+        "kajio-emanon",
+        "aoyama-strobolight",
+        "anno-shin-eva",
+        "little-thunder-wakame",
+        "ikenaga-hyakuya",
+        "bergson-essai"
+      ],
+      "figures": [
+        "assets/illustrations/08-a-one-event-two-meanings.svg",
+        "assets/illustrations/08-b-what-completion-ends.svg",
+        "assets/illustrations/08-c-map-of-seven-questions.svg",
+        "assets/illustrations/08-d-fixed-whole-unfinished-present.svg",
+        "assets/illustrations/08-e-knowing-and-still-living.svg"
+      ]
+    }
+  ]
+}

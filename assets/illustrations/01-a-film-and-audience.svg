@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">観客の順序とフィルムの全体</title>
+<desc id="desc">観客が順に観ていく場面と、上映前から記録されているフィルムの全体を一つの帯の上で対照する。</desc>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="720" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     01     図1-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">観客の順序とフィルムの全体</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">観客が順に観ていく場面と、上映前から記録されているフィルムの全体を一つの帯の上で対照する。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="775.0" y="224.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">上映前からすべての場面が記録されている</text>
+<text x="1150.0" y="224.0" fill="#232a33" font-size="17" text-anchor="end" font-weight="700">全体の存在のしかた</text>
+<rect x="140.0" y="240.0" width="1010.0" height="132.0" rx="8" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="154.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="154.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="194.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="194.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="234.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="234.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="274.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="274.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="314.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="314.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="354.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="354.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="394.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="394.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="434.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="434.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="474.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="474.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="514.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="514.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="554.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="554.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="594.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="594.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="634.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="634.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="674.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="674.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="714.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="714.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="754.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="754.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="794.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="794.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="834.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="834.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="874.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="874.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="914.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="914.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="954.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="954.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="994.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="994.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="1034.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="1034.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="1074.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="1074.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="1114.0" y="247.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="1114.0" y="357.0" width="12.0" height="8.0" rx="2" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="50.0" y="312.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">フィルム</text>
+<rect x="165.0" y="262.0" width="140.0" height="88.0" rx="4" fill="#ffffff" stroke="#232a33" stroke-width="1.5"/>
+<text x="235.0" y="313.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">冒頭</text>
+<rect x="329.0" y="262.0" width="140.0" height="88.0" rx="4" fill="#ffffff" stroke="#232a33" stroke-width="1.5"/>
+<text x="399.0" y="313.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="400"></text>
+<rect x="493.0" y="262.0" width="140.0" height="88.0" rx="4" fill="#ffffff" stroke="#232a33" stroke-width="1.5"/>
+<text x="563.0" y="313.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="400">…</text>
+<rect x="657.0" y="262.0" width="140.0" height="88.0" rx="4" fill="#ffffff" stroke="#232a33" stroke-width="1.5"/>
+<text x="727.0" y="313.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="400">…</text>
+<rect x="821.0" y="262.0" width="140.0" height="88.0" rx="4" fill="#ffffff" stroke="#232a33" stroke-width="1.5"/>
+<text x="891.0" y="313.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="400">…</text>
+<rect x="985.0" y="262.0" width="140.0" height="88.0" rx="4" fill="#ffffff" stroke="#232a33" stroke-width="1.5"/>
+<text x="1055.0" y="313.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">結末</text>
+<text x="399.0" y="224.0" fill="#c7792b" font-size="16" text-anchor="middle" font-weight="700">いま観ている場面</text>
+<line x1="399.0" y1="230.0" x2="399.0" y2="392.0" stroke="#c7792b" stroke-width="3"/>
+<text x="1055.0" y="398.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">まだ来ていない結末</text>
+<polygon points="276.0,518.0 165.0,374.0 397.0,374.0" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.14"/>
+<line x1="300.0" y1="505.0" x2="389.0" y2="384.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)"/>
+<circle cx="270.0" cy="530.0" r="12.0" fill="#2f8f83"/>
+<ellipse cx="270.0" cy="564.0" rx="11.0" ry="24.0" transform="rotate(-0 270.0 564.0)" fill="#2f8f83"/>
+<line x1="270.0" y1="586.0" x2="248.0" y2="624.0" stroke="#2f8f83" stroke-width="8.0" stroke-linecap="round"/>
+<line x1="270.0" y1="586.0" x2="294.0" y2="618.0" stroke="#2f8f83" stroke-width="8.0" stroke-linecap="round"/>
+<line x1="274.0" y1="552.0" x2="248.0" y2="570.0" stroke="#2f8f83" stroke-width="6.5" stroke-linecap="round"/>
+<line x1="274.0" y1="552.0" x2="296.0" y2="544.0" stroke="#2f8f83" stroke-width="6.5" stroke-linecap="round"/>
+<text x="270.0" y="652.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="700">観客</text>
+<text x="540.0" y="520.0" fill="#2f8f83" font-size="17" text-anchor="start" font-weight="700">経験の順序</text>
+<line x1="540.0" y1="548.0" x2="1125.0" y2="548.0" stroke="#2f8f83" stroke-width="2" marker-end="url(#arrow-2f8f83)"/>
+<text x="540.0" y="582.0" fill="#5d6873" font-size="16" text-anchor="start" font-weight="400">観客は冒頭から結末へ順番に観る（逐次的認識）</text>
+<text x="50.0" y="692.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">フィルムにとって冒頭も結末も同じように存在する。観客にとって結末はまだ来ていない。</text>
+</g>
+</svg>

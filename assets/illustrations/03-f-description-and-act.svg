@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+<title id="title">記述と行為</title>
+<desc id="desc">書物の一行と本人の行為の関係を左に、行為を含む未来と行為を欠いた未来の違いを右に見る。</desc>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="590" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     03     図3-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">記述と行為</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">書物の一行と本人の行為の関係を左に、行為を含む未来と行為を欠いた未来の違いを右に見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="530.0" height="350.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<rect x="165.0" y="250.0" width="300.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="315.0" y="286.0" fill="#2b5f9e" font-size="19" text-anchor="middle" font-weight="700">書物の一行：コーヒーを飲む</text>
+<rect x="165.0" y="470.0" width="300.0" height="56.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="315.0" y="506.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">本人がコーヒーを飲む</text>
+<line x1="235.0" y1="318.0" x2="235.0" y2="462.0" stroke="#5d6873" stroke-width="4" marker-end="url(#arrow-5d6873)"/>
+<line x1="225.0" y1="380.0" x2="245.0" y2="400.0" stroke="#232a33" stroke-width="2.4"/>
+<line x1="225.0" y1="400.0" x2="245.0" y2="380.0" stroke="#232a33" stroke-width="2.4"/>
+<text x="220.0" y="395.0" fill="#232a33" font-size="15" text-anchor="end" font-weight="400">記述は原因ではない</text>
+<line x1="380.0" y1="390.0" x2="380.0" y2="318.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="380.0" y1="390.0" x2="380.0" y2="462.0" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="396.0" y="395.0" fill="#2b5f9e" font-size="15" text-anchor="start" font-weight="400">記述が真なら行為が起きる</text>
+<rect x="620.0" y="200.0" width="530.0" height="350.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="650.0" y="258.0" fill="#8a4f9e" font-size="16" text-anchor="start" font-weight="700">未来（歴史）</text>
+<rect x="650.0" y="270.0" width="470.0" height="70.0" rx="12" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.1"/>
+<rect x="650.0" y="270.0" width="470.0" height="70.0" rx="12" fill="none" stroke="#8a4f9e" stroke-width="1.8"/>
+<rect x="656.0" y="285.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<rect x="771.0" y="285.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<rect x="886.0" y="285.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="938.0" y="310.0" fill="#2f8f83" font-size="14" text-anchor="middle" font-weight="700">コーヒーを飲む</text>
+<rect x="1001.0" y="285.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<rect x="650.0" y="420.0" width="470.0" height="70.0" rx="12" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.1"/>
+<rect x="650.0" y="420.0" width="470.0" height="70.0" rx="12" fill="none" stroke="#8a4f9e" stroke-width="1.8"/>
+<rect x="656.0" y="435.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<rect x="771.0" y="435.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<rect x="1001.0" y="435.0" width="104.0" height="40.0" rx="8" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<line x1="865.0" y1="372.0" x2="905.0" y2="372.0" stroke="#5d6873" stroke-width="2.4" stroke-dasharray="8 7"/>
+<line x1="865.0" y1="388.0" x2="905.0" y2="388.0" stroke="#5d6873" stroke-width="2.4" stroke-dasharray="8 7"/>
+<line x1="873.0" y1="368.0" x2="897.0" y2="392.0" stroke="#5d6873" stroke-width="2"/>
+<line x1="873.0" y1="392.0" x2="897.0" y2="368.0" stroke="#5d6873" stroke-width="2"/>
+<text x="885.0" y="525.0" fill="#8a4f9e" font-size="15" text-anchor="middle" font-weight="400">行為を取り除くと同じ未来ではない</text>
+</g>
+</svg>

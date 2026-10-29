@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+<title id="title">同じ退職に二つの意味</title>
+<desc id="desc">一つの退職から二つの結末へ進む経過と、それぞれの結末から退職へ戻って与えられる意味の違いを見る。</desc>
+<defs><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="740" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     02     図2-5</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">同じ退職に二つの意味</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">一つの退職から二つの結末へ進む経過と、それぞれの結末から退職へ戻って与えられる意味の違いを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="330.0" y="400.0" width="190.0" height="70.0" rx="14" fill="#ffffff" stroke="#c7792b" stroke-width="2"/>
+<text x="425.0" y="443.0" fill="#c7792b" font-size="20" text-anchor="middle" font-weight="700">仕事を辞めた</text>
+<rect x="760.0" y="300.0" width="240.0" height="70.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="880.0" y="343.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">新しい仕事で成功した</text>
+<rect x="760.0" y="500.0" width="240.0" height="70.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="880.0" y="543.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">うまくいかなかった</text>
+<line x1="524.0" y1="425.0" x2="752.0" y2="340.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<line x1="524.0" y1="445.0" x2="752.0" y2="530.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="640.0" y="362.0" fill="#2f8f83" font-size="15" text-anchor="middle" font-weight="400">後の出来事</text>
+<path d="M 800 294 C 700 230, 490 230, 400 394" fill="none" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<path d="M 800 576 C 700 640, 490 640, 400 476" fill="none" stroke="#2b5f9e" stroke-width="2" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="610.0" y="246.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="400">転機として語られる</text>
+<text x="610.0" y="642.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="400">失敗の原因として語られる</text>
+<text x="316.0" y="442.0" fill="#232a33" font-size="15" text-anchor="end" font-weight="400">出来事そのものは変わらない</text>
+<text x="880.0" y="442.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">変わるのは全体の中での意味</text>
+<line x1="100.0" y1="668.0" x2="1090.0" y2="668.0" stroke="#5d6873" stroke-width="1.6" marker-end="url(#arrow-5d6873)"/>
+<text x="1104.0" y="674.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">時間</text>
+<text x="50.0" y="712.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">琥珀＝転機とされる出来事、青緑＝その後の経験、青の破線＝後から与える意味</text>
+</g>
+</svg>

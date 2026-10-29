@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">自由の二つの意味</title>
+<desc id="desc">別の行動を選べる自由と、自分の判断で行為する自由を左右に分け、確定した未来が閉じるのは左だけであることを見る。</desc>
+<defs><marker id="arrow-232a33" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.4"/></marker><marker id="arrow-8a9099" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#8a9099" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="630" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     03     図3-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">自由の二つの意味</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">別の行動を選べる自由と、自分の判断で行為する自由を左右に分け、確定した未来が閉じるのは左だけであることを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="50.0" y="200.0" width="530.0" height="350.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="315.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">別の行動を選べる自由</text>
+<rect x="482.0" y="250.0" width="40.0" height="290.0" rx="8" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.18"/>
+<text x="502.0" y="274.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">一</text>
+<text x="502.0" y="300.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">つ</text>
+<text x="502.0" y="326.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">に</text>
+<text x="502.0" y="352.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">確</text>
+<text x="502.0" y="378.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">定</text>
+<text x="502.0" y="404.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">し</text>
+<text x="502.0" y="430.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">た</text>
+<text x="502.0" y="456.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">未</text>
+<text x="502.0" y="482.0" fill="#2b5f9e" font-size="16" text-anchor="middle" font-weight="700">来</text>
+<circle cx="110.0" cy="395.0" r="10" fill="#c7792b"/>
+<text x="110.0" y="428.0" fill="#c7792b" font-size="17" text-anchor="middle" font-weight="700">現在</text>
+<rect x="240.0" y="285.0" width="160.0" height="50.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="320.0" y="318.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">コーヒー</text>
+<rect x="240.0" y="455.0" width="160.0" height="50.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="320.0" y="488.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">紅茶</text>
+<line x1="122.0" y1="388.0" x2="232.0" y2="318.0" stroke="#232a33" stroke-width="2" marker-end="url(#arrow-232a33)"/>
+<line x1="122.0" y1="402.0" x2="232.0" y2="472.0" stroke="#232a33" stroke-width="2" marker-end="url(#arrow-232a33)"/>
+<line x1="400.0" y1="310.0" x2="476.0" y2="310.0" stroke="#232a33" stroke-width="2" marker-end="url(#arrow-232a33)"/>
+<line x1="400.0" y1="480.0" x2="436.0" y2="480.0" stroke="#232a33" stroke-width="2"/>
+<line x1="444.0" y1="472.0" x2="460.0" y2="488.0" stroke="#232a33" stroke-width="2.4"/>
+<line x1="444.0" y1="488.0" x2="460.0" y2="472.0" stroke="#232a33" stroke-width="2.4"/>
+<line x1="600.0" y1="270.0" x2="600.0" y2="520.0" stroke="#d8d4c8" stroke-width="1.5"/>
+<rect x="620.0" y="200.0" width="530.0" height="350.0" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="885.0" y="234.0" fill="#232a33" font-size="23" text-anchor="middle" font-weight="700">自分の判断で行為する自由</text>
+<rect x="650.0" y="280.0" width="170.0" height="52.0" rx="14" fill="#ffffff" stroke="#8a9099" stroke-width="2"/>
+<text x="735.0" y="314.0" fill="#8a9099" font-size="19" text-anchor="middle" font-weight="700">他者の強制</text>
+<rect x="650.0" y="440.0" width="190.0" height="52.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="745.0" y="474.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">本人の欲求・判断</text>
+<rect x="900.0" y="355.0" width="200.0" height="64.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="1000.0" y="395.0" fill="#2f8f83" font-size="21" text-anchor="middle" font-weight="700">コーヒーを飲む</text>
+<line x1="820.0" y1="306.0" x2="896.0" y2="374.0" stroke="#8a9099" stroke-width="2" marker-end="url(#arrow-8a9099)"/>
+<line x1="840.0" y1="466.0" x2="896.0" y2="404.0" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="650.0" y="522.0" fill="#2f8f83" font-size="15" text-anchor="start" font-weight="400">両立論が見る行為の原因</text>
+<circle cx="60.0" cy="588.0" r="7" fill="#2b5f9e"/>
+<text x="76.0" y="594.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">青＝知ること・記述</text>
+<circle cx="290.0" cy="588.0" r="7" fill="#2f8f83"/>
+<text x="306.0" y="594.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">青緑＝行為</text>
+<circle cx="520.0" cy="588.0" r="7" fill="#c7792b"/>
+<text x="536.0" y="594.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">琥珀＝現在</text>
+</g>
+</svg>

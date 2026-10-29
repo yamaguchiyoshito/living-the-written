@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">一方の初対面が、他方には再会になる</title>
+<desc id="desc">一本の歴史の線と、それを別の順序で横切る線が二度交わり、同じ交点が一方には初対面で他方には再会になる様子を見る。</desc>
+<defs><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     04     図4-4</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">一方の初対面が、他方には再会になる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">一本の歴史の線と、それを別の順序で横切る線が二度交わり、同じ交点が一方には初対面で他方には再会になる様子を見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.05"/>
+<rect x="208.8" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.08"/>
+<rect x="327.5" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.11"/>
+<rect x="446.2" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.14"/>
+<rect x="565.0" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.16999999999999998"/>
+<rect x="683.8" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.2"/>
+<rect x="802.5" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.22999999999999998"/>
+<rect x="921.2" y="388.0" width="119.8" height="24.0" rx="0" fill="#8a4f9e" stroke="none" stroke-width="0" opacity="0.26"/>
+<line x1="90.0" y1="400.0" x2="1060.0" y2="400.0" stroke="#2b5f9e" stroke-width="2.4" marker-end="url(#arrow-2b5f9e)"/>
+<text x="90.0" y="440.0" fill="#2b5f9e" font-size="17" text-anchor="start" font-weight="700">エマノンの時間（歴史の順序）</text>
+<path d="M 900 560 L 820 400 C 740 300 520 300 440 400 L 380 490" fill="none" stroke="#2f8f83" stroke-width="2.4" marker-end="url(#arrow-2f8f83)"/>
+<text x="630.0" y="298.0" fill="#2f8f83" font-size="17" text-anchor="middle" font-weight="700">ヒカリの時間（経験の順序）</text>
+<text x="905.0" y="516.0" fill="#2f8f83" font-size="20" text-anchor="start" font-weight="700">①</text>
+<text x="350.0" y="480.0" fill="#2f8f83" font-size="20" text-anchor="end" font-weight="700">②</text>
+<circle cx="440.0" cy="400.0" r="9" fill="#ffffff"/>
+<circle cx="440.0" cy="400.0" r="9" fill="none" stroke="#2b5f9e" stroke-width="3"/>
+<circle cx="820.0" cy="400.0" r="9" fill="#ffffff"/>
+<circle cx="820.0" cy="400.0" r="9" fill="none" stroke="#2b5f9e" stroke-width="3"/>
+<text x="440.0" y="436.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">出会いA</text>
+<text x="820.0" y="436.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">出会いB</text>
+<text x="630.0" y="436.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="400">同じ出来事、異なる位置</text>
+<text x="422.0" y="372.0" fill="#8a4f9e" font-size="16" text-anchor="end" font-weight="700">エマノン：初めて</text>
+<text x="838.0" y="372.0" fill="#8a4f9e" font-size="16" text-anchor="start" font-weight="700">エマノン：二度目</text>
+<text x="462.0" y="466.0" fill="#2f8f83" font-size="16" text-anchor="start" font-weight="700">ヒカリ：二度目</text>
+<text x="798.0" y="466.0" fill="#2f8f83" font-size="16" text-anchor="end" font-weight="700">ヒカリ：初めて</text>
+<text x="50.0" y="592.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">青＝歴史の順序、青緑＝経験の順序、紫の帯＝積み重なる記憶。</text>
+</g>
+</svg>
