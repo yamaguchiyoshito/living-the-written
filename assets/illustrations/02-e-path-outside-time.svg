@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">「道」は時間の外にある</title>
+<desc id="desc">過去から未来へ並ぶ人物や出来事の列と、その順序の外で全員を結ぶ「道」の面を見る。</desc>
+<defs><marker id="arrow-5d6873" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="700" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     02     図2-5</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">「道」は時間の外にある</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">過去から未来へ並ぶ人物や出来事の列と、その順序の外で全員を結ぶ「道」の面を見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<path d="M 250 235 L 1030 205 L 950 395 L 170 425 Z" fill="#8a4f9e" stroke="#8a4f9e" stroke-width="2" opacity="0.1"/>
+<path d="M 250 235 L 1030 205 L 950 395 L 170 425 Z" fill="none" stroke="#8a4f9e" stroke-width="2"/>
+<text x="300.0" y="270.0" fill="#8a4f9e" font-size="20" text-anchor="start" font-weight="700">「道」　時間の秩序の外</text>
+<text x="60.0" y="318.0" fill="#8a4f9e" font-size="15" text-anchor="start" font-weight="400">時間の外</text>
+<text x="60.0" y="342.0" fill="#8a4f9e" font-size="15" text-anchor="start" font-weight="400">相互に結ぶ</text>
+<line x1="300.0" y1="335.0" x2="430.0" y2="305.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="300.0" y1="335.0" x2="600.0" y2="325.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="300.0" y1="335.0" x2="740.0" y2="285.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="300.0" y1="335.0" x2="870.0" y2="315.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="430.0" y1="305.0" x2="600.0" y2="325.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="430.0" y1="305.0" x2="740.0" y2="285.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="430.0" y1="305.0" x2="870.0" y2="315.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="600.0" y1="325.0" x2="740.0" y2="285.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="600.0" y1="325.0" x2="870.0" y2="315.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<line x1="740.0" y1="285.0" x2="870.0" y2="315.0" stroke="#8a4f9e" stroke-width="1.6" opacity="0.5"/>
+<circle cx="300.0" cy="335.0" r="6" fill="#5d6873"/>
+<circle cx="430.0" cy="305.0" r="9" fill="#8a4f9e"/>
+<circle cx="600.0" cy="325.0" r="6" fill="#5d6873"/>
+<circle cx="740.0" cy="285.0" r="9" fill="#8a4f9e"/>
+<circle cx="870.0" cy="315.0" r="6" fill="#5d6873"/>
+<text x="1000.0" y="255.0" fill="#8a4f9e" font-size="15" text-anchor="end" font-weight="400">離れた人物や出来事が結びつく</text>
+<line x1="220.0" y1="546.0" x2="300.0" y2="347.0" stroke="#8a4f9e" stroke-width="1.6" stroke-dasharray="8 7"/>
+<line x1="380.0" y1="546.0" x2="430.0" y2="317.0" stroke="#8a4f9e" stroke-width="1.6" stroke-dasharray="8 7"/>
+<line x1="540.0" y1="546.0" x2="600.0" y2="337.0" stroke="#8a4f9e" stroke-width="1.6" stroke-dasharray="8 7"/>
+<line x1="700.0" y1="546.0" x2="740.0" y2="297.0" stroke="#8a4f9e" stroke-width="1.6" stroke-dasharray="8 7"/>
+<line x1="860.0" y1="546.0" x2="870.0" y2="327.0" stroke="#8a4f9e" stroke-width="1.6" stroke-dasharray="8 7"/>
+<text x="900.0" y="470.0" fill="#8a4f9e" font-size="15" text-anchor="start" font-weight="400">各時点が「道」に現れる</text>
+<line x1="180.0" y1="560.0" x2="1080.0" y2="560.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow-5d6873)"/>
+<text x="60.0" y="548.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">通常の時間</text>
+<text x="60.0" y="572.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">先後に並ぶ</text>
+<text x="180.0" y="594.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">過去</text>
+<text x="1080.0" y="594.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">未来</text>
+<circle cx="220.0" cy="560.0" r="7" fill="#5d6873"/>
+<circle cx="380.0" cy="560.0" r="11" fill="#8a4f9e"/>
+<text x="380.0" y="596.0" fill="#8a4f9e" font-size="17" text-anchor="middle" font-weight="700">グリシャ</text>
+<circle cx="540.0" cy="560.0" r="7" fill="#5d6873"/>
+<circle cx="700.0" cy="560.0" r="11" fill="#8a4f9e"/>
+<text x="700.0" y="596.0" fill="#8a4f9e" font-size="17" text-anchor="middle" font-weight="700">エレン</text>
+<circle cx="860.0" cy="560.0" r="7" fill="#5d6873"/>
+<text x="600.0" y="638.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="400">順序の外から全体を見る　出来事は先後の関係だけでなく相互の関係でも理解される</text>
+<text x="50.0" y="672.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">紫＝物語の人物と「道」、灰＝ほかの人物や出来事、破線＝「道」での対応</text>
+</g>
+</svg>

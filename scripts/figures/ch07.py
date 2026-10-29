@@ -1,4 +1,4 @@
-"""第7回　なぜ完成させることが、失うことになるのか — 図7-1〜図7-6。"""
+"""第7回　なぜ完成させることが、失うことになるのか — 図7-1〜図7-7。"""
 from __future__ import annotations
 import math
 
@@ -36,6 +36,7 @@ def draw(made: set[str]) -> None:
     fig_d(made)
     fig_e(made)
     fig_f(made)
+    fig_g(made)
 
 
 # --- 図7-1 -----------------------------------------------------------------
@@ -239,3 +240,53 @@ def fig_f(made: set[str]) -> None:
     f.line(1060, 323, 1060, 262, color=PLUM, width=2.5, arrow=True)
     f.text(1060, 372, '次の判断を形づくる', 15, PLUM, anchor='middle')
     made.add(f.save('07-f-completion-within-duration.svg'))
+
+
+# --- 図7-7 -----------------------------------------------------------------
+def fig_g(made: set[str]) -> None:
+    f = Figure(7, '対象としての存在と、過程としての存在', '完成して保持される対象と、行為が続く間にだけ変化し続ける関係という、存在の二つの形式を見る。', 660, 'g')
+    f.panel(50, 200, 530, 360, '対象としての存在')
+    f.panel(620, 200, 530, 360, '過程としての存在')
+
+    # 左：完成の時点の先に、形の確定した箱が残る
+    f.line(100, 505, 540, 505, color=MUTED, width=1.5, arrow=True)
+    f.text(536, 530, '時間', 14, MUTED, anchor='end')
+    f.line(150, 488, 150, 522, color=AMBER, width=3)
+    f.text(150, 546, '完成', 16, AMBER, anchor='middle', weight=700)
+    f.rect(205, 300, 200, 140, fill='#ffffff', stroke=INK, width=2.5, rx=0)
+    f.text(305, 362, '作品・記録', 19, INK, anchor='middle', weight=700)
+    f.text(305, 392, '形が確定する', 15, MUTED, anchor='middle')
+    f.line(407, 370, 437, 370, color=MUTED, width=1.5, dots=True)
+    f.rect(441, 300, 100, 140, fill='none', stroke=INK, width=1.5, rx=0, dash=True, opacity=0.5)
+    f.text(491, 376, 'そのまま', 14, MUTED, anchor='middle', opacity=0.8)
+    f.text(305, 470, '誰かが続けなくても存在する', 15, MUTED, anchor='middle')
+
+    # 右：開いたままの帯の中で、関係が形を変えながら続く
+    f.text(870, 288, '関係が変化し続ける', 17, TEAL, anchor='middle', weight=700)
+    f.rect(650, 300, 440, 130, fill=TEAL, stroke='none', width=0, rx=0, opacity=0.18)
+    f.line(650, 300, 1090, 300, color=TEAL, width=2)
+    f.line(650, 430, 1090, 430, color=TEAL, width=2)
+    f.line(650, 300, 650, 430, color=TEAL, width=2)
+    pts = ' '.join(f'{1090 + 6 * math.sin(k / 4):.1f},{300 + k:.1f}' for k in range(0, 131, 2))
+    f.body.append(f'<polyline points="{pts}" fill="none" stroke="{TEAL}" stroke-width="2"/>')
+    f.line(1102, 365, 1138, 365, color=TEAL, width=2, arrow=True, opacity=0.55)
+    for cx, label, shape in ((720, '制作', 0), (870, '会話', 1), (1020, '共に生きる', 2)):
+        ax, bx, y = cx - 36, cx + 36, 365
+        f.circ(ax, y, 11, TEAL)
+        f.circ(bx, y, 11, INK, fill=False, width=2)
+        if shape == 0:
+            f.line(ax + 13, y, bx - 13, y, color=TEAL, width=2)
+        elif shape == 1:
+            f.path(f'M {ax + 12:.1f} {y - 5:.1f} Q {cx:.1f} {y - 34:.1f} {bx - 12:.1f} {y - 5:.1f}', color=TEAL, width=2)
+            f.path(f'M {ax + 12:.1f} {y + 5:.1f} Q {cx:.1f} {y + 34:.1f} {bx - 12:.1f} {y + 5:.1f}', color=TEAL, width=2)
+        else:
+            f.path(f'M {ax + 12:.1f} {y - 6:.1f} Q {cx:.1f} {y - 42:.1f} {bx - 12:.1f} {y - 6:.1f}', color=TEAL, width=3)
+            f.path(f'M {ax + 12:.1f} {y:.1f} L {bx - 12:.1f} {y:.1f}', color=TEAL, width=2)
+            f.path(f'M {ax + 12:.1f} {y + 6:.1f} Q {cx:.1f} {y + 42:.1f} {bx - 12:.1f} {y + 6:.1f}', color=TEAL, width=3)
+        f.text(cx, 462, label, 16, INK, anchor='middle', weight=700)
+    f.text(870, 500, '行為が続く間にだけ成立する', 15, MUTED, anchor='middle')
+    f.text(870, 526, '成果物では代替できない', 15, MUTED, anchor='middle')
+
+    f.text(600, 604, '分けるのは価値の有無ではなく、存在の形式', 20, INK, anchor='middle', weight=700)
+    legend(f, 640, [(INK, '黒＝保持される対象'), (TEAL, '青緑＝続いている行為')])
+    made.add(f.save('07-g-being-as-object-and-process.svg'))

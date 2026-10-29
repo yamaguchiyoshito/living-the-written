@@ -1,4 +1,4 @@
-"""第3回「未来を知っていても、人は自由でいられるのか」の図3-1〜図3-6。"""
+"""第3回「未来を知っていても、人は自由でいられるのか」の図3-1〜図3-7。"""
 from __future__ import annotations
 
 from draw_figures import Figure, person, BG, INK, MUTED, LINE, SOFT, BLUE, AMBER, TEAL, PLUM
@@ -162,7 +162,36 @@ def fig_e(made: set[str]) -> None:
 
 
 def fig_f(made: set[str]) -> None:
-    f = Figure(3, '記述と行為', '書物の一行と本人の行為の関係を左に、行為を含む未来と行為を欠いた未来の違いを右に見る。', 590, 'f')
+    f = Figure(3, '選択肢の数と生きた時間', '一点から広がる選べたかもしれない未来の数と、実際に生きた一本の時間に並ぶ経験を左右に分けて見る。', 640, 'f')
+    # 左パネル：選べたかもしれない未来（一点から広がる細い枝）
+    f.panel(50, 200, 530, 320, '選べたかもしれない未来')
+    ox, oy = 130, 380
+    for i in range(9):
+        y = 256 + i * 27
+        f.line(ox + 16, oy + (y - oy) * 16 / 400, 524, y, color=GREY, width=1.3, opacity=0.75)
+        f.circ(530, y, 5, GREY, fill=False, width=1.5)
+    f.circ(ox, oy, 10, AMBER)
+    f.text(ox - 18, oy + 6, '現在', 17, AMBER, anchor='end', weight=700)
+    f.text(315, 503, '数の多さにも意味がある', 15, MUTED, anchor='middle')
+    # 右パネル：実際に生きた時間（一本の太い帯に経験の印）
+    f.panel(620, 200, 530, 320, '実際に生きた時間')
+    f.rect(650, 362, 470, 44, fill=TEAL, stroke='none', width=0, rx=22, opacity=0.16)
+    f.line(664, 384, 1112, 384, color=TEAL, width=3, arrow=True)
+    marks = [(720, '出会う', True), (840, '会話する', False), (960, '触れ合う', True), (1080, '共に過ごす', False)]
+    for x, s, above in marks:
+        f.circ(x, 384, 9, TEAL)
+        f.text(x, 340 if above else 436, s, 17, TEAL, anchor='middle', weight=700)
+    f.text(885, 503, '選択可能性だけでは説明できない価値', 15, MUTED, anchor='middle')
+    # 両者を結ぶ帯
+    f.line(315, 522, 315, 552, color=MUTED, width=2, arrow=True)
+    f.line(885, 522, 885, 552, color=MUTED, width=2, arrow=True)
+    f.rect(50, 556, 1100, 52, fill=SOFT, stroke=INK, width=1.8, rx=14)
+    f.text(600, 589, 'どちらも価値がある', 21, INK, anchor='middle', weight=700)
+    made.add(f.save('03-f-options-and-lived-time.svg'))
+
+
+def fig_g(made: set[str]) -> None:
+    f = Figure(3, '記述と行為', '書物の一行と本人の行為の関係を左に、行為を含む未来と行為を欠いた未来の違いを右に見る。', 590, 'g')
     # 左：記述は原因ではない／記述が真なら行為が起きる
     f.panel(50, 200, 530, 350)
     f.box(165, 250, 300, 56, '書物の一行：コーヒーを飲む', '', BLUE, 19)
@@ -191,7 +220,7 @@ def fig_f(made: set[str]) -> None:
     f.line(865, 388, 905, 388, color=MUTED, width=2.4, dash=True)
     cross(f, 885, 380, 12, MUTED, 2)
     f.text(885, 525, '行為を取り除くと同じ未来ではない', 15, PLUM, anchor='middle')
-    made.add(f.save('03-f-description-and-act.svg'))
+    made.add(f.save('03-g-description-and-act.svg'))
 
 
 def draw(made: set[str]) -> None:
@@ -201,3 +230,4 @@ def draw(made: set[str]) -> None:
     fig_d(made)
     fig_e(made)
     fig_f(made)
+    fig_g(made)

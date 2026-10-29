@@ -5,7 +5,7 @@
   "title": "書かれたものを生きる",
   "subtitle": "時間・因果・自由・記憶・物語・虚構・持続の哲学、全8回",
   "language": "ja",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "tagline": "すべてが決まっていたとしても、すべてはまだ生きられていない。",
   "parts": [
     {
@@ -49,7 +49,8 @@
         "assets/illustrations/01-b-heptapod-a-and-b.svg",
         "assets/illustrations/01-c-sequential-and-simultaneous.svg",
         "assets/illustrations/01-d-prediction-and-memory.svg",
-        "assets/illustrations/01-e-unknown-and-nonexistent.svg"
+        "assets/illustrations/01-e-three-problems-of-time.svg",
+        "assets/illustrations/01-f-unknown-and-nonexistent.svg"
       ]
     },
     {
@@ -68,8 +69,9 @@
         "assets/illustrations/02-b-local-law-and-whole-path.svg",
         "assets/illustrations/02-c-path-integral-superposition.svg",
         "assets/illustrations/02-d-causal-loop.svg",
-        "assets/illustrations/02-e-resignation-meaning-from-outcome.svg",
-        "assets/illustrations/02-f-living-forward-understanding-backward.svg"
+        "assets/illustrations/02-e-path-outside-time.svg",
+        "assets/illustrations/02-f-resignation-meaning-from-outcome.svg",
+        "assets/illustrations/02-g-living-forward-understanding-backward.svg"
       ]
     },
     {
@@ -90,7 +92,8 @@
         "assets/illustrations/03-c-describing-and-performing.svg",
         "assets/illustrations/03-d-desire-enacts-fate.svg",
         "assets/illustrations/03-e-louise-and-eren.svg",
-        "assets/illustrations/03-f-description-and-act.svg"
+        "assets/illustrations/03-f-options-and-lived-time.svg",
+        "assets/illustrations/03-g-description-and-act.svg"
       ]
     },
     {
@@ -109,8 +112,9 @@
         "assets/illustrations/04-b-years-and-order.svg",
         "assets/illustrations/04-c-inversion-and-leaps.svg",
         "assets/illustrations/04-d-first-meeting-and-reunion.svg",
-        "assets/illustrations/04-e-same-present-different-time.svg",
-        "assets/illustrations/04-f-date-fixed-meaning-moves.svg"
+        "assets/illustrations/04-e-marks-in-each-others-lives.svg",
+        "assets/illustrations/04-f-same-present-different-time.svg",
+        "assets/illustrations/04-g-date-fixed-meaning-moves.svg"
       ]
     },
     {
@@ -132,7 +136,8 @@
         "assets/illustrations/05-c-genette-five-relations.svg",
         "assets/illustrations/05-d-writing-and-written-hamasaki.svg",
         "assets/illustrations/05-e-three-levels-of-narrative.svg",
-        "assets/illustrations/05-f-written-self-catches-up.svg"
+        "assets/illustrations/05-f-written-self-catches-up.svg",
+        "assets/illustrations/05-g-narrating-present-shaping-past.svg"
       ]
     },
     {
@@ -178,7 +183,8 @@
         "assets/illustrations/07-c-hundred-nights-as-duration.svg",
         "assets/illustrations/07-d-memory-and-writing-the-past.svg",
         "assets/illustrations/07-e-living-and-stalled-incompletion.svg",
-        "assets/illustrations/07-f-completion-within-duration.svg"
+        "assets/illustrations/07-f-completion-within-duration.svg",
+        "assets/illustrations/07-g-being-as-object-and-process.svg"
       ]
     },
     {
@@ -199,11 +205,12 @@
         "bergson-essai"
       ],
       "figures": [
-        "assets/illustrations/08-a-one-event-two-meanings.svg",
-        "assets/illustrations/08-b-what-completion-ends.svg",
-        "assets/illustrations/08-c-map-of-seven-questions.svg",
-        "assets/illustrations/08-d-fixed-whole-unfinished-present.svg",
-        "assets/illustrations/08-e-knowing-and-still-living.svg"
+        "assets/illustrations/08-a-cognition-and-description.svg",
+        "assets/illustrations/08-b-one-event-two-meanings.svg",
+        "assets/illustrations/08-c-what-completion-ends.svg",
+        "assets/illustrations/08-d-map-of-seven-questions.svg",
+        "assets/illustrations/08-e-fixed-whole-unfinished-present.svg",
+        "assets/illustrations/08-f-knowing-and-still-living.svg"
       ]
     }
   ]

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="652" viewBox="0 0 1200 652" role="img" aria-labelledby="title desc">
+<title id="title">認識の形と記述の形の対応</title>
+<desc id="desc">順番に知る形と全体から知る形が、第1回の認識と第2回の記述のそれぞれに現れ、列ごとに対応することを見る。</desc>
+<defs><marker id="arrow-2f8f83" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2f8f83" stroke-width="1.4"/></marker><marker id="arrow-2b5f9e" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b5f9e" stroke-width="1.4"/></marker></defs>
+<rect width="1200" height="652" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b5f9e" font-size="18" text-anchor="start" font-weight="700">LIVING THE WRITTEN     08     図8-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">認識の形と記述の形の対応</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">順番に知る形と全体から知る形が、第1回の認識と第2回の記述のそれぞれに現れ、列ごとに対応することを見る。</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="270.0" y="212.0" width="400.0" height="40.0" rx="8" fill="#2f8f83" stroke="none" stroke-width="0" opacity="0.16"/>
+<text x="470.0" y="239.0" fill="#2f8f83" font-size="19" text-anchor="middle" font-weight="700">順番に</text>
+<rect x="720.0" y="212.0" width="400.0" height="40.0" rx="8" fill="#2b5f9e" stroke="none" stroke-width="0" opacity="0.16"/>
+<text x="920.0" y="239.0" fill="#2b5f9e" font-size="19" text-anchor="middle" font-weight="700">全体から</text>
+<text x="70.0" y="306.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">第1回</text>
+<text x="70.0" y="332.0" fill="#232a33" font-size="20" text-anchor="start" font-weight="700">認識の形</text>
+<text x="70.0" y="470.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">第2回</text>
+<text x="70.0" y="496.0" fill="#232a33" font-size="20" text-anchor="start" font-weight="700">記述の形</text>
+<rect x="270.0" y="270.0" width="400.0" height="92.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="470.0" y="312.0" fill="#2f8f83" font-size="22" text-anchor="middle" font-weight="700">逐次的認識</text>
+<text x="470.0" y="342.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">出来事を一つずつ順番に知っていく</text>
+<rect x="720.0" y="270.0" width="400.0" height="92.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="920.0" y="312.0" fill="#2b5f9e" font-size="22" text-anchor="middle" font-weight="700">同時的認識</text>
+<text x="920.0" y="342.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">過去と未来を一つの全体として認識する</text>
+<rect x="270.0" y="434.0" width="400.0" height="92.0" rx="14" fill="#ffffff" stroke="#2f8f83" stroke-width="2"/>
+<text x="470.0" y="476.0" fill="#2f8f83" font-size="22" text-anchor="middle" font-weight="700">局所的な運動方程式</text>
+<text x="470.0" y="506.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">原因が先にあり結果が後から生じる</text>
+<rect x="720.0" y="434.0" width="400.0" height="92.0" rx="14" fill="#ffffff" stroke="#2b5f9e" stroke-width="2"/>
+<text x="920.0" y="476.0" fill="#2b5f9e" font-size="22" text-anchor="middle" font-weight="700">経路全体の変分条件</text>
+<text x="920.0" y="506.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">運動を経路全体の作用から導く</text>
+<line x1="470.0" y1="398.0" x2="470.0" y2="368.0" stroke="#2f8f83" stroke-width="1.8" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<line x1="470.0" y1="398.0" x2="470.0" y2="428.0" stroke="#2f8f83" stroke-width="1.8" marker-end="url(#arrow-2f8f83)" stroke-dasharray="8 7"/>
+<text x="484.0" y="404.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">対応</text>
+<line x1="920.0" y1="398.0" x2="920.0" y2="368.0" stroke="#2b5f9e" stroke-width="1.8" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<line x1="920.0" y1="398.0" x2="920.0" y2="428.0" stroke="#2b5f9e" stroke-width="1.8" marker-end="url(#arrow-2b5f9e)" stroke-dasharray="8 7"/>
+<text x="934.0" y="404.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">対応</text>
+<text x="695.0" y="558.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">適切な条件の下で対応する。未来の終点が過去に命令を送っているわけではない</text>
+<rect x="270.0" y="580.0" width="850.0" height="42.0" rx="8" fill="#c7792b" stroke="none" stroke-width="0" opacity="0.15"/>
+<text x="695.0" y="608.0" fill="#c7792b" font-size="19" text-anchor="middle" font-weight="700">経験の方向と解釈の方向は一致しない</text>
+</g>
+</svg>

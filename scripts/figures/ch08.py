@@ -1,11 +1,42 @@
-"""第8回の挿絵（図8-1〜図8-5）。"""
+"""第8回の挿絵（図8-1〜図8-6）。"""
 from draw_figures import Figure, BG, INK, MUTED, LINE, SOFT, BLUE, AMBER, TEAL, PLUM
 
 N = 8
 
 
 def fig_a(made: set[str]) -> None:
-    f = Figure(N, '一つの出来事、別々の意味', '同じ出来事が二人にとって別の順序に置かれることと、現在の書く行為が過去を物語として生むことを見る。', 600, 'a')
+    f = Figure(N, '認識の形と記述の形の対応', '順番に知る形と全体から知る形が、第1回の認識と第2回の記述のそれぞれに現れ、列ごとに対応することを見る。', 652, 'a')
+    cx1, cx2, cw = 270, 720, 400
+    # 列見出し：順番に（青緑＝経験）、全体から（青＝理解）
+    f.rect(cx1, 212, cw, 40, fill=TEAL, stroke='none', width=0, rx=8, opacity=0.16)
+    f.text(cx1 + cw / 2, 239, '順番に', 19, TEAL, anchor='middle', weight=700)
+    f.rect(cx2, 212, cw, 40, fill=BLUE, stroke='none', width=0, rx=8, opacity=0.16)
+    f.text(cx2 + cw / 2, 239, '全体から', 19, BLUE, anchor='middle', weight=700)
+    # 行見出し
+    f.text(70, 306, '第1回', 15, MUTED)
+    f.text(70, 332, '認識の形', 20, INK, weight=700)
+    f.text(70, 470, '第2回', 15, MUTED)
+    f.text(70, 496, '記述の形', 20, INK, weight=700)
+    # 第1行：認識
+    f.box(cx1, 270, cw, 92, '逐次的認識', '出来事を一つずつ順番に知っていく', TEAL, 22)
+    f.box(cx2, 270, cw, 92, '同時的認識', '過去と未来を一つの全体として認識する', BLUE, 22)
+    # 第2行：記述
+    f.box(cx1, 434, cw, 92, '局所的な運動方程式', '原因が先にあり結果が後から生じる', TEAL, 22)
+    f.box(cx2, 434, cw, 92, '経路全体の変分条件', '運動を経路全体の作用から導く', BLUE, 22)
+    # 行のあいだの対応（破線）
+    for x, col in ((cx1 + cw / 2, TEAL), (cx2 + cw / 2, BLUE)):
+        f.line(x, 398, x, 368, color=col, width=1.8, arrow=True, dash=True)
+        f.line(x, 398, x, 428, color=col, width=1.8, arrow=True, dash=True)
+        f.text(x + 14, 404, '対応', 15, MUTED)
+    f.text(695, 558, '適切な条件の下で対応する。未来の終点が過去に命令を送っているわけではない', 15, MUTED, anchor='middle')
+    # 帯
+    f.rect(cx1, 580, cx2 + cw - cx1, 42, fill=AMBER, stroke='none', width=0, rx=8, opacity=0.15)
+    f.text((cx1 + cx2 + cw) / 2, 608, '経験の方向と解釈の方向は一致しない', 19, AMBER, anchor='middle', weight=700)
+    made.add(f.save('08-a-cognition-and-description.svg'))
+
+
+def fig_b(made: set[str]) -> None:
+    f = Figure(N, '一つの出来事、別々の意味', '同じ出来事が二人にとって別の順序に置かれることと、現在の書く行為が過去を物語として生むことを見る。', 600, 'b')
     # 左パネル：他者の時間
     f.panel(50, 200, 530, 360, '他者の時間')
     f.text(100, 283, 'エマノン', 17, TEAL, weight=700)
@@ -35,11 +66,11 @@ def fig_a(made: set[str]) -> None:
     f.text(846, 427, '過去が書き手をつくる', 15, INK, anchor='end')
     f.line(910, 466, 910, 380, color=AMBER, width=2, arrow=True, dash=True)
     f.text(924, 427, '現在が過去を物語にする', 15, INK)
-    made.add(f.save('08-a-one-event-two-meanings.svg'))
+    made.add(f.save('08-b-one-event-two-meanings.svg'))
 
 
-def fig_b(made: set[str]) -> None:
-    f = Figure(N, '完成が残すものと終わらせるもの', '百夜の積み重ねが完成の線で切れ、作品は右へ残り、描く行為はそこで止まることを見る。', 580, 'b')
+def fig_c(made: set[str]) -> None:
+    f = Figure(N, '完成が残すものと終わらせるもの', '百夜の積み重ねが完成の線で切れ、作品は右へ残り、描く行為はそこで止まることを見る。', 580, 'c')
     f.text(90, 282, '描いている（未完了相）', 16, TEAL, weight=700)
     rows = [('百夜目', 578, 1.0), ('…', 430, 0.5), ('二夜目', 310, 1.0), ('一夜目', 200, 1.0)]
     for i, (lab, x1, op) in enumerate(rows):
@@ -62,11 +93,11 @@ def fig_b(made: set[str]) -> None:
     f.path('M 586 336 Q 600 462 648 462', color=MUTED, width=2, arrow=True, dash=True)
     f.rect(660, 428, 240, 68, fill='none', stroke=LINE, width=2, rx=10, dash=True)
     f.text(780, 468, '百夜は戻らない', 17, MUTED, anchor='middle')
-    made.add(f.save('08-b-what-completion-ends.svg'))
+    made.add(f.save('08-c-what-completion-ends.svg'))
 
 
-def fig_c(made: set[str]) -> None:
-    f = Figure(N, '七つの問いの見取り図', '七つの主題が同じ境界線の上に並び、最終回の問いがその線を一つにまとめることを見る。', 600, 'c')
+def fig_d(made: set[str]) -> None:
+    f = Figure(N, '七つの問いの見取り図', '七つの主題が同じ境界線の上に並び、最終回の問いがその線を一つにまとめることを見る。', 600, 'd')
     x0, x1, top, mid, bot = 70, 1130, 230, 375, 520
     f.rect(x0, top, x1 - x0, mid - top, fill=BLUE, stroke='none', width=0, rx=0, opacity=0.08)
     f.rect(x0, mid, x1 - x0, bot - mid, fill=TEAL, stroke='none', width=0, rx=0, opacity=0.08)
@@ -92,11 +123,11 @@ def fig_c(made: set[str]) -> None:
     f.text(ax, mid + 7, '生き続ける', 17, AMBER, anchor='middle', weight=700)
     f.text(ax, mid + ar + 22, '第8回', 14, MUTED, anchor='middle')
     f.text(600, 566, '知ることと生きることは同じか', 22, INK, anchor='middle', weight=700)
-    made.add(f.save('08-c-map-of-seven-questions.svg'))
+    made.add(f.save('08-d-map-of-seven-questions.svg'))
 
 
-def fig_d(made: set[str]) -> None:
-    f = Figure(N, '確定した全体と未完了の現在', '同じ人生を、上では確定した全体として、下では現在から先が未完了のものとして見る。', 590, 'd')
+def fig_e(made: set[str]) -> None:
+    f = Figure(N, '確定した全体と未完了の現在', '同じ人生を、上では確定した全体として、下では現在から先が未完了のものとして見る。', 590, 'e')
     L, R = 120, 1080
     # 上段：全体として捉える観点
     f.text(600, 232, '［全体として捉える観点］', 16, BLUE, anchor='middle')
@@ -124,11 +155,11 @@ def fig_d(made: set[str]) -> None:
         f.text(x + bw / 2, 456, a, 15, INK, anchor='middle')
         f.text(x + bw / 2, 476, b, 15, INK, anchor='middle')
     f.text(600, 548, '［現在進行形で経験する観点］', 16, TEAL, anchor='middle')
-    made.add(f.save('08-d-fixed-whole-unfinished-present.svg'))
+    made.add(f.save('08-e-fixed-whole-unfinished-present.svg'))
 
 
-def fig_e(made: set[str]) -> None:
-    f = Figure(N, '知っていること、それでも生きること', '五つの人物について、知っていることの隣に、それでも省略できない行為を並べて見る。', 680, 'e')
+def fig_f(made: set[str]) -> None:
+    f = Figure(N, '知っていること、それでも生きること', '五つの人物について、知っていることの隣に、それでも省略できない行為を並べて見る。', 680, 'f')
     lx, lw, rx, rw = 215, 360, 680, 450
     f.rect(lx, 212, lw, 44, fill=BLUE, stroke='none', width=0, rx=8, opacity=0.16)
     f.text(lx + lw / 2, 241, '知っていること', 19, BLUE, anchor='middle', weight=700)
@@ -145,7 +176,7 @@ def fig_e(made: set[str]) -> None:
         f.text(rx + rw / 2, y + 33, b, 18, INK, anchor='middle')
     f.rect(lx, 606, rx + rw - lx, 42, fill=AMBER, stroke='none', width=0, rx=8, opacity=0.15)
     f.text((lx + rx + rw) / 2, 634, '結末を知ることは結末まで生きたことではない', 19, AMBER, anchor='middle', weight=700)
-    made.add(f.save('08-e-knowing-and-still-living.svg'))
+    made.add(f.save('08-f-knowing-and-still-living.svg'))
 
 
 def draw(made: set[str]) -> None:
@@ -154,3 +185,4 @@ def draw(made: set[str]) -> None:
     fig_c(made)
     fig_d(made)
     fig_e(made)
+    fig_f(made)

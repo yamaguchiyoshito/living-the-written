@@ -1,4 +1,4 @@
-"""第1回「時間は流れているのか、それとも私たちが流しているのか」の挿絵（図1-1〜図1-5）。"""
+"""第1回「時間は流れているのか、それとも私たちが流しているのか」の挿絵（図1-1〜図1-6）。"""
 from __future__ import annotations
 
 from draw_figures import Figure, person, BG, INK, MUTED, LINE, SOFT, BLUE, AMBER, TEAL, PLUM
@@ -186,8 +186,55 @@ def fig_d(made: set[str]) -> None:
 
 
 def fig_e(made: set[str]) -> None:
-    """図1-5：知らないことと、ないこと。"""
-    f = Figure(1, '知らないことと、ないこと', '未来が見えない状態と未来が存在しない状態を、同じ位置に立つ人型から見た二本の時間帯で比べる。', 740, 'e')
+    """図1-5：時間をめぐる三つの問題。"""
+    f = Figure(1, '時間をめぐる三つの問題', '出来事の順序、物理的な非対称、経験される流れを三つの列に分け、それぞれが別の問題であることを見る。', 640, 'e')
+    cols = [(225, '第一', '順序がある', '出来事に先後の並びがあるか'),
+            (600, '第二', '非対称がある', '過去と未来に物理的な違いがあるか'),
+            (975, '第三', '流れて感じる', '時間の流れをどう経験するか')]
+    for cx, num, head, sub in cols:
+        f.text(cx, 216, num, 15, MUTED, anchor='middle')
+        f.text(cx, 248, head, 23, INK, anchor='middle', weight=700)
+        f.text(cx, 276, sub, 15, MUTED, anchor='middle')
+    for x in (412, 787):
+        f.line(x, 206, x, 540, color=LINE, width=1)
+    # 左：並んだ点
+    f.line(105, 362, 345, 362, color=LINE, width=2)
+    for x in range(105, 346, 60):
+        f.circ(x, 362, 9, INK)
+    f.text(105, 400, '先', 15, MUTED, anchor='middle')
+    f.text(345, 400, '後', 15, MUTED, anchor='middle')
+    f.text(225, 486, '出来事が先後に並ぶ', 16, INK, anchor='middle', weight=700)
+    # 中：整った点の群から散らばった点の群へ、一方向の矢印
+    for i in range(3):
+        for j in range(3):
+            f.circ(482 + i * 18, 322 + j * 18, 5, INK)
+    for x, y in [(668, 318), (702, 306), (735, 328), (680, 352), (718, 345), (745, 364), (662, 374), (700, 380), (732, 392)]:
+        f.circ(x, y, 5, INK)
+    f.line(538, 340, 648, 340, color=INK, width=2.5, arrow=True)
+    f.text(500, 422, 'エントロピー低', 15, MUTED, anchor='middle')
+    f.text(703, 422, 'エントロピー高', 15, MUTED, anchor='middle')
+    f.text(600, 486, '一方向にしか進まない', 16, INK, anchor='middle', weight=700)
+    f.text(600, 516, 'すべてを認識の産物とは言えない', 15, MUTED, anchor='middle')
+    # 右：過去と未来の帯の境に立つ人型と「現在」の帯
+    bh = 34
+    f.rect(835, 376, 125, bh, fill=PLUM, stroke='none', width=0, rx=bh / 2, opacity=0.75)
+    f.rect(990, 376, 125, bh, fill=BLUE, stroke='none', width=0, rx=bh / 2, opacity=0.28)
+    f.rect(957, 292, 36, 140, fill=AMBER, stroke='none', width=0, rx=8, opacity=0.22)
+    f.line(975, 296, 975, 428, color=AMBER, width=3)
+    person(f, 975, 352, TEAL, 0.7)
+    f.text(897, 366, '過去', 17, PLUM, anchor='middle', weight=700)
+    f.text(1052, 366, '未来', 17, BLUE, anchor='middle', weight=700)
+    f.text(975, 452, '現在', 17, AMBER, anchor='middle', weight=700)
+    f.text(975, 486, '「現在」が移っていくと感じる', 16, INK, anchor='middle', weight=700)
+    f.text(975, 516, '世界の性質か、意識の構造か', 15, MUTED, anchor='middle')
+    f.text(600, 566, '三つは別の問題であり、混ぜると議論は進まなくなる', 17, INK, anchor='middle', weight=700)
+    f.footer('川は水が場所を移る。時間は何に対して移るのか。')
+    made.add(f.save('01-e-three-problems-of-time.svg'))
+
+
+def fig_f(made: set[str]) -> None:
+    """図1-6：知らないことと、ないこと。"""
+    f = Figure(1, '知らないことと、ないこと', '未来が見えない状態と未来が存在しない状態を、同じ位置に立つ人型から見た二本の時間帯で比べる。', 740, 'f')
     nx, bh = 520, 40
     # 上パネル：未来を知らない
     f.panel(50, 200, 930, 240)
@@ -223,7 +270,7 @@ def fig_e(made: set[str]) -> None:
     f.line(ax - 9, 446, ax + 9, 464, color=INK, width=3)
     f.line(ax - 9, 464, ax + 9, 446, color=INK, width=3)
     f.text(ax + 20, 461, '導けない', 16, INK, weight=700)
-    made.add(f.save('01-e-unknown-and-nonexistent.svg'))
+    made.add(f.save('01-f-unknown-and-nonexistent.svg'))
 
 
 def draw(made: set[str]) -> None:
@@ -232,3 +279,4 @@ def draw(made: set[str]) -> None:
     fig_c(made)
     fig_d(made)
     fig_e(made)
+    fig_f(made)

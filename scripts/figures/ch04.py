@@ -1,4 +1,4 @@
-"""第4回「同じ時間を生きなければ、共に生きられないのか」の挿絵6枚。
+"""第4回「同じ時間を生きなければ、共に生きられないのか」の挿絵7枚。
 
 凡例（この回で共通）: 歴史の年代の軸＝青、各人物の経験の順序の軸＝青緑、記憶の蓄積＝紫、「いま」＝琥珀。
 歴史の年代と経験の順序は別の線として描き、同じ出来事の対応は破線で結ぶ。
@@ -140,7 +140,39 @@ def fig_d(made: set[str]) -> None:
 
 
 def fig_e(made: set[str]) -> None:
-    f = Figure(4, '同じ現在にいても、経験している時間は違う', '同じ現在に並ぶ二人が、それぞれ別の時間に意識を向けている様子と、それでも二人を結ぶ線を見る。', 560, 'e', accent=AMBER)
+    f = Figure(4, '同じ時間を共有しなくても、印は互いの人生に残る', '交わらない二本の経験の線に、相手が現れた印が別の位置と別の順序で付き、破線が同じ出会いを結ぶ様子を見る。', 620, 'e', accent=PLUM)
+    y_e, y_h = 300, 500
+    ea, eb = 560, 900   # エマノンの線上の出会いA, B
+    hb, ha = 440, 800   # ヒカリの線上の出会いB, A
+    # 二本の経験の線（青緑）。交わらない。
+    f.text(120, y_e - 14, 'エマノンの人生（経験の順序）', 19, TEAL, weight=700)
+    f.line(120, y_e, 1060, y_e, color=TEAL, width=2.4, arrow=True)
+    f.text(120, y_h - 14, 'ヒカリの人生（経験の順序）', 19, TEAL, weight=700)
+    f.line(120, y_h, 1060, y_h, color=TEAL, width=2.4, arrow=True)
+    # 同じ出会いを結ぶ破線（順序が逆なので交差する）
+    f.line(ea, y_e + 14, ha, y_h - 14, color=MUTED, width=1.6, dash=True)
+    f.line(eb, y_e + 14, hb, y_h - 14, color=MUTED, width=1.6, dash=True)
+    # 相手が現れた印（紫）
+    for x, yy in ((ea, y_e), (eb, y_e), (hb, y_h), (ha, y_h)):
+        f.circ(x, yy, 13, '#ffffff')
+        f.circ(x, yy, 9, PLUM)
+    f.text(ea, y_e - 28, 'A：ヒカリが現れる', 16, PLUM, anchor='middle', weight=700)
+    f.text(eb, y_e - 28, 'B：ヒカリが現れる', 16, PLUM, anchor='middle', weight=700)
+    f.text(ea, y_e + 38, '一度目', 15, MUTED, anchor='middle')
+    f.text(eb, y_e + 38, '二度目', 15, MUTED, anchor='middle')
+    f.text(hb, y_h + 36, 'B：エマノンが現れる', 16, PLUM, anchor='middle', weight=700)
+    f.text(ha, y_h + 36, 'A：エマノンが現れる', 16, PLUM, anchor='middle', weight=700)
+    f.text(hb, y_h + 62, '一度目', 15, MUTED, anchor='middle')
+    f.text(ha, y_h + 62, '二度目', 15, MUTED, anchor='middle')
+    # 右側の要約
+    f.text(1150, 388, '二本の線は交わらない', 17, INK, anchor='end', weight=700)
+    f.text(1150, 414, '印だけが互いの線に残る', 17, PLUM, anchor='end', weight=700)
+    f.footer('青緑＝経験の順序、紫＝相手が現れた印、破線＝同じ出会い。')
+    made.add(f.save('04-e-marks-in-each-others-lives.svg'))
+
+
+def fig_f(made: set[str]) -> None:
+    f = Figure(4, '同じ現在にいても、経験している時間は違う', '同じ現在に並ぶ二人が、それぞれ別の時間に意識を向けている様子と、それでも二人を結ぶ線を見る。', 560, 'f', accent=AMBER)
     # 同じ時計時間の帯
     f.rect(300, 220, 600, 40, fill=AMBER, stroke='none', width=0, rx=10, opacity=0.18)
     f.text(318, 246, '同じ時計時間', 17, AMBER, weight=700)
@@ -163,11 +195,11 @@ def fig_e(made: set[str]) -> None:
     f.line(lx + 30, 420, rx - 30, 420, color=TEAL, width=2.6)
     f.text(605, 408, '関係', 17, TEAL, anchor='middle', weight=700)
     f.footer('共有できない時間を持つ相手と結ぶ。')
-    made.add(f.save('04-e-same-present-different-time.svg'))
+    made.add(f.save('04-f-same-present-different-time.svg'))
 
 
-def fig_f(made: set[str]) -> None:
-    f = Figure(4, '日付は動かず、意味だけが動く', '歴史の一点に固定された出会いが、二人の人生の線では異なる位置に置かれ、後の出来事から意味が書き換わる構造を見る。', 650, 'f')
+def fig_g(made: set[str]) -> None:
+    f = Figure(4, '日付は動かず、意味だけが動く', '歴史の一点に固定された出会いが、二人の人生の線では異なる位置に置かれ、後の出来事から意味が書き換わる構造を見る。', 650, 'g')
     dx, y_d = 560, 260
     ex, y_e = 800, 400
     hx, y_h = 320, 540
@@ -200,7 +232,7 @@ def fig_f(made: set[str]) -> None:
         f.circ(x, yy, 9, '#ffffff')
         f.circ(x, yy, 9, BLUE if yy == y_d else (PLUM if yy == y_e else TEAL), fill=False, width=3)
     f.text(1150, 470, '時間的位置≠意味的位置', 17, INK, anchor='end', weight=700)
-    made.add(f.save('04-f-date-fixed-meaning-moves.svg'))
+    made.add(f.save('04-g-date-fixed-meaning-moves.svg'))
 
 
 def draw(made: set[str]) -> None:
@@ -210,3 +242,4 @@ def draw(made: set[str]) -> None:
     fig_d(made)
     fig_e(made)
     fig_f(made)
+    fig_g(made)

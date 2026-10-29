@@ -1,4 +1,4 @@
-"""第2回「原因は本当に結果より先にあるのか」の挿絵6枚。"""
+"""第2回「原因は本当に結果より先にあるのか」の挿絵7枚。"""
 from __future__ import annotations
 import math
 
@@ -183,7 +183,47 @@ def fig_d(made):
 
 
 def fig_e(made):
-    f = Figure(2, '同じ退職に二つの意味', '一つの退職から二つの結末へ進む経過と、それぞれの結末から退職へ戻って与えられる意味の違いを見る。', 740, 'e')
+    f = Figure(2, '「道」は時間の外にある', '過去から未来へ並ぶ人物や出来事の列と、その順序の外で全員を結ぶ「道」の面を見る。', 700, 'e')
+    # 上段：時間の軸と平行でない面「道」
+    plane = 'M 250 235 L 1030 205 L 950 395 L 170 425 Z'
+    f.path(plane, color=PLUM, width=2, fill=PLUM, opacity=0.10)
+    f.path(plane, color=PLUM, width=2)
+    f.text(300, 270, '「道」　時間の秩序の外', 20, PLUM, weight=700)
+    f.text(60, 318, '時間の外', 15, PLUM)
+    f.text(60, 342, '相互に結ぶ', 15, PLUM)
+    xs = [220, 380, 540, 700, 860]
+    nodes = [(300, 335), (430, 305), (600, 325), (740, 285), (870, 315)]
+    named = {1: 'グリシャ', 3: 'エレン'}
+    for i in range(len(nodes)):
+        for j in range(i + 1, len(nodes)):
+            f.line(nodes[i][0], nodes[i][1], nodes[j][0], nodes[j][1], color=PLUM, width=1.6, opacity=0.5)
+    for i, (nx, ny) in enumerate(nodes):
+        f.circ(nx, ny, 9 if i in named else 6, PLUM if i in named else MUTED)
+    f.text(1000, 255, '離れた人物や出来事が結びつく', 15, PLUM, anchor='end')
+    # 各時点から面への対応（破線）
+    y = 560
+    for x, (nx, ny) in zip(xs, nodes):
+        f.line(x, y - 14, nx, ny + 12, color=PLUM, width=1.6, dash=True)
+    f.text(900, 470, '各時点が「道」に現れる', 15, PLUM)
+    # 下段：通常の時間の軸
+    f.line(180, y, 1080, y, color=MUTED, width=2, arrow=True)
+    f.text(60, 548, '通常の時間', 15, MUTED)
+    f.text(60, 572, '先後に並ぶ', 15, MUTED)
+    f.text(180, 594, '過去', 15, MUTED)
+    f.text(1080, 594, '未来', 15, MUTED, anchor='end')
+    for i, x in enumerate(xs):
+        if i in named:
+            f.circ(x, y, 11, PLUM)
+            f.text(x, 596, named[i], 17, PLUM, anchor='middle', weight=700)
+        else:
+            f.circ(x, y, 7, MUTED)
+    f.text(600, 638, '順序の外から全体を見る　出来事は先後の関係だけでなく相互の関係でも理解される', 17, INK, anchor='middle')
+    f.footer('紫＝物語の人物と「道」、灰＝ほかの人物や出来事、破線＝「道」での対応')
+    made.add(f.save('02-e-path-outside-time.svg'))
+
+
+def fig_f(made):
+    f = Figure(2, '同じ退職に二つの意味', '一つの退職から二つの結末へ進む経過と、それぞれの結末から退職へ戻って与えられる意味の違いを見る。', 740, 'f')
     f.box(330, 400, 190, 70, '仕事を辞めた', '', AMBER, 20)
     f.box(760, 300, 240, 70, '新しい仕事で成功した', '', TEAL, 19)
     f.box(760, 500, 240, 70, 'うまくいかなかった', '', TEAL, 19)
@@ -199,11 +239,11 @@ def fig_e(made):
     f.line(100, 668, 1090, 668, color=MUTED, width=1.6, arrow=True)
     f.text(1104, 674, '時間', 15, MUTED)
     f.footer('琥珀＝転機とされる出来事、青緑＝その後の経験、青の破線＝後から与える意味')
-    made.add(f.save('02-e-resignation-meaning-from-outcome.svg'))
+    made.add(f.save('02-f-resignation-meaning-from-outcome.svg'))
 
 
-def fig_f(made):
-    f = Figure(2, '経験の方向と解釈の方向', '人生の線の上を過去から未来へ進む経験の矢印と、現在から過去へ戻る解釈の矢印を見る。', 630, 'f')
+def fig_g(made):
+    f = Figure(2, '経験の方向と解釈の方向', '人生の線の上を過去から未来へ進む経験の矢印と、現在から過去へ戻る解釈の矢印を見る。', 630, 'g')
     y = 385
     f.line(120, y, 1080, y, color=MUTED, width=2)
     f.text(1092, y + 6, '人生', 16, MUTED)
@@ -223,7 +263,7 @@ def fig_f(made):
     f.text(600, 540, '解釈の方向　後の出来事に照らして意味を改める', 18, BLUE, anchor='middle', weight=700)
     f.text(1130, 578, '順番に生きる。意味は順番どおりに決まらない', 15, INK, anchor='end')
     f.footer('青緑＝経験・生きること、青＝認識・知ること、琥珀＝現在')
-    made.add(f.save('02-f-living-forward-understanding-backward.svg'))
+    made.add(f.save('02-g-living-forward-understanding-backward.svg'))
 
 
 def draw(made: set[str]) -> None:
@@ -233,3 +273,4 @@ def draw(made: set[str]) -> None:
     fig_d(made)
     fig_e(made)
     fig_f(made)
+    fig_g(made)

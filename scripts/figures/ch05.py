@@ -1,4 +1,4 @@
-"""第5回「過去は終わったのに、なぜ書き換わるのか」の挿絵 6 枚。"""
+"""第5回「過去は終わったのに、なぜ書き換わるのか」の挿絵 7 枚。"""
 from __future__ import annotations
 import math
 
@@ -163,3 +163,49 @@ def draw(made: set[str]) -> None:
     ghost_person(f, 895, 330, BLUE, 0.9)
     f.text(932, 322, '位置が意味を失う', 16, BLUE, weight=700)
     made.add(f.save('05-f-written-self-catches-up.svg'))
+
+    # ---- 図5-7 語る現在と形づくられる過去 ---------------------------------------------
+    f = Figure(5, '語る現在と形づくられる過去', '記憶・物語・自己理解・新しい経験を結ぶ輪と、輪の外の動かない出来事の箱、中心に立つ語る現在の自分を見る。', 790, 'g')
+    cx, cy, r = 790, 480, 200
+    names = [('記憶', '過去の出来事の記録', PLUM), ('物語', '現在から語る', PLUM), ('自己理解', '自分が何者であるか', BLUE), ('新しい経験', '過去の意味を変える', TEAL)]
+    start = math.pi  # 記憶を左に置き、時計回りに進む
+    bw, bh = 200, 78
+    centers = []
+    for i in range(4):
+        a = start + 2 * math.pi * i / 4
+        centers.append((cx + r * math.cos(a), cy + r * math.sin(a)))
+    def outside(a, node):
+        """円周上の角 a の点が、node の箱（余白 14px）の外にあるか。箱は横長なので上下の箱ほど外れる角が大きい。"""
+        x, y = cx + r * math.cos(a), cy + r * math.sin(a)
+        return abs(x - node[0]) > bw / 2 + 14 or abs(y - node[1]) > bh / 2 + 14
+    for i in range(4):
+        a0 = start + 2 * math.pi * i / 4
+        a1 = start + 2 * math.pi * (i + 1) / 4
+        t0 = 0.0
+        while not outside(a0 + t0, centers[i]):
+            t0 += math.radians(1)
+        t1 = 0.0
+        while not outside(a1 - t1, centers[(i + 1) % 4]):
+            t1 += math.radians(1)
+        p0 = (cx + r * math.cos(a0 + t0), cy + r * math.sin(a0 + t0))
+        p1 = (cx + r * math.cos(a1 - t1), cy + r * math.sin(a1 - t1))
+        f.path(f'M {p0[0]:.1f} {p0[1]:.1f} A {r} {r} 0 0 1 {p1[0]:.1f} {p1[1]:.1f}', color=MUTED, width=2.2, arrow=True)
+    for (x, y), (title, sub, col) in zip(centers, names):
+        f.box(x - bw / 2, y - bh / 2, bw, bh, title, sub, col, 22)
+    # 弧のラベル
+    f.text(cx - 150, cy - 158, '語る', 17, PLUM, anchor='end', weight=700)
+    f.text(cx + 150, cy - 158, '自己を形成する', 17, BLUE, weight=700)
+    f.text(cx + 150, cy + 170, '生きる', 17, TEAL, weight=700)
+    f.text(cx - 150, cy + 170, '語り直す', 17, PLUM, anchor='end', weight=700)
+    # 輪の中心：語る現在の自分
+    person(f, cx, cy + 20, AMBER, 0.9)
+    f.text(cx, cy + 74, '語る現在の自分', 17, AMBER, anchor='middle', weight=700)
+    # 輪の外の固定点
+    ex, ey, ew, eh = 70, cy - 55, 240, 110
+    f.box(ex, ey, ew, eh, '過去の出来事', '動かない（事実）', INK)
+    f.line(ex + ew + 14, cy - 22, centers[0][0] - bw / 2 - 14, cy - 22, color=TEAL, width=2.4, arrow=True)
+    f.text((ex + ew + centers[0][0] - bw / 2) / 2, cy - 34, '形づくる', 16, TEAL, anchor='middle', weight=700)
+    f.line(centers[0][0] - bw / 2 - 14, cy + 22, ex + ew + 14, cy + 22, color=BLUE, width=2.4, arrow=True, dash=True)
+    f.text((ex + ew + centers[0][0] - bw / 2) / 2, cy + 44, '意味づける', 16, BLUE, anchor='middle', weight=700)
+    f.footer('事実は固定され、意味は輪の中で更新され続ける')
+    made.add(f.save('05-g-narrating-present-shaping-past.svg'))
