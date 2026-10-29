@@ -12,9 +12,9 @@ opening = opening.split('<!-- /NAV -->', 1)[-1]
 lead = [p.strip() for p in opening.split('**')[0].split('\n\n') if p.strip() and not p.strip().startswith('<!--')]
 lead_chars = sum(len(re.sub(r'\s', '', p)) for p in lead)
 me_chars = len(re.sub(r'\s', '', lead[0])) if lead else 0
-print(f"冒頭: 太字の問いまで={lead_chars}字 「私」の場面={me_chars}字")
+print(f"冒頭: 太字の問いまで={lead_chars}字 作品の場面={me_chars}字")
 if lead_chars > 250: print("  ! 冒頭: 太字の問いまでが250字を超える")
-if me_chars > 150: print("  ! 冒頭: 「私」の場面が150字を超える")
+if me_chars > 150: print("  ! 冒頭: 作品の場面が150字を超える")
 for ch in chapters[1:]:
     title, _, rest = ch.partition('\n')
     paras = [p.strip() for p in rest.split('\n\n') if p.strip() and not p.strip().startswith(('![', '*図', '*書影', '*場面', '<!--', '[', '## 参考文献', '> '))]
