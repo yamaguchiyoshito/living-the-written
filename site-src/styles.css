@@ -99,3 +99,14 @@ body:has(.toc-state:checked) .toc-drawer{transform:none;visibility:visible}
 @media(max-width:940px){.layout{padding:22px 20px 60px}main{max-width:none}.topbar{padding:11px 18px}}
 @media(max-width:600px){.brand{font-size:15px}.brand span{display:none}body{font-size:15.5px;line-height:1.75}h1{font-size:25px}h2{font-size:20px}h3{font-size:17.5px}.topbar-actions{gap:12px;font-size:13px}.toc-toggle{padding:6px 11px}.layout{padding-left:16px;padding-right:16px}.figure-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -16px;padding:0 16px;scrollbar-width:thin}.figure-link{width:max-content}img{width:680px;max-width:none;padding:4px}figcaption::after{content:"　横にスクロールできる。タップで原寸。";color:var(--muted)}th,td{padding:8px 9px}table{font-size:13.5px}.table-wrap{border-radius:6px}.chapter-nav{font-size:13px;padding:8px 12px}}
 @media print{.topbar,aside,.toc-backdrop,.skip,footer{display:none}.layout{display:block;padding:0}main{max-width:none}body{background:white;color:black;font-size:11pt}h1{font-size:20pt}h2,h3{break-after:avoid}img{max-height:16cm;break-inside:avoid;border:0}a{color:inherit}pre{overflow:visible}p{orphans:3;widows:3}.table-wrap{overflow:visible;border:0}.chapter-nav{display:none}}
+
+/* 作品の書影・場面（assets/works）は原寸を超えて拡大せず、本文幅の中で小さく中央に置く */
+figure .figure-scroll img[src*="assets/works/"],
+figure .figure-scroll img[src^="data:image/jpeg"],
+figure .figure-scroll img[src^="data:image/png"] {
+  width: auto;
+  max-width: min(100%, 260px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
