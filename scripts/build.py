@@ -98,12 +98,33 @@ def render(text: str, prefix: str = '', next_note: str = '') -> str:
     output = run_pandoc(json.dumps(ast, ensure_ascii=False), args)
     if prefix:
         output = output.replace('id="footnotes"', f'id="{prefix}footnotes"')
-    return wrap_tables(merge_captions(output))
+    return dedupe_notes(wrap_tables(merge_captions(output)))
+
+
+NOTE_ITEM = re.compile(r'<li id="([A-Za-z0-9_-]*?fn)(\d+)"><p>(.*?)<a href="#\1ref\2" class="footnote-back"[^>]*>↩︎</a></p></li>\n?', re.S)
+
+
+def dedupe_notes(output: str) -> str:
+    """同じ脚注IDを本文で2回以上参照すると、Pandoc は参照ごとに同じ注を複製する。
+    内容が同じ注は最初の1つに束ね、後の参照はその注へ向ける。参照側の id は一意のまま残す。"""
+    first: dict[str, tuple[str, str]] = {}
+    drop: list[tuple[str, str]] = []
+    for m in NOTE_ITEM.finditer(output):
+        stem, num, body = m.group(1), m.group(2), m.group(3)
+        if body in first:
+            drop.append((stem, num))
+            output = output.replace(f'href="#{stem}{num}"', f'href="#{stem}{first[body][1]}"')
+        else:
+            first[body] = (stem, num)
+    for stem, num in drop:
+        output = re.sub(r'<li id="' + re.escape(stem + num) + r'"><p>.*?</p></li>\n?', '', output, count=1, flags=re.S)
+    return output
 
 
 # Pandoc が alt から作る自動キャプションは aria-hidden 付きで出る。本文由来の figcaption と区別するため、その属性で限定する。
-FIGURE_WITH_CAPTION = re.compile(r'<figure>\s*(<img\b[^>]*>)\s*<figcaption aria-hidden="true">.*?</figcaption>\s*</figure>\s*<p><em>(図[^<]*)</em></p>', re.S)
-FIGURE_ALT_ONLY = re.compile(r'<figure>\s*(<img\b[^>]*>)\s*<figcaption aria-hidden="true">.*?</figcaption>\s*</figure>', re.S)
+# figcaption の中身は [^<]* に限定する。.*? にすると、書影のように「図」で始まらないキャプションを持つ図から、次の「図N-k」の図までを一つに飲み込む。
+FIGURE_WITH_CAPTION = re.compile(r'<figure>\s*(<img\b[^>]*>)\s*<figcaption aria-hidden="true">[^<]*</figcaption>\s*</figure>\s*<p><em>(図[^<]*)</em></p>', re.S)
+FIGURE_ALT_ONLY = re.compile(r'<figure>\s*(<img\b[^>]*>)\s*<figcaption aria-hidden="true">[^<]*</figcaption>\s*</figure>', re.S)
 
 
 IMG_SRC = re.compile(r'\bsrc="([^"]+)"')
@@ -187,11 +208,12 @@ def make_book(series: dict, css: str, dest: Path) -> None:
 
         def rewrite(match: re.Match) -> str:
             attr, url = match.group(1), html.unescape(match.group(2))
-            if attr == 'src' and url.endswith('.svg'):
+            if attr == 'src' and url.endswith(('.svg', '.jpg', '.jpeg', '.png')):
                 path = (source.parent / url).resolve()
                 path.relative_to(ROOT)
+                mime = {'.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png'}[path.suffix]
                 encoded = base64.b64encode(path.read_bytes()).decode('ascii')
-                return f'src="data:image/svg+xml;base64,{encoded}"'
+                return f'src="data:{mime};base64,{encoded}"'
             if attr == 'href' and not urlsplit(url).scheme and not url.startswith('#'):
                 raw = urlsplit(url).path
                 if raw.endswith('index.html'):

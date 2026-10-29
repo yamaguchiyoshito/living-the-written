@@ -32,7 +32,10 @@ class Document(HTMLParser):
         if tag == 'script':
             self.scripts += 1
         if tag == 'img':
-            self.images += 1
+            # 挿絵（SVG）だけを図として数える。assets/works の書影・場面（jpg/png）は図の番号と検査の枚数に含めない。
+            src = attrs.get('src', '')
+            if src.endswith('.svg') or src.startswith('data:image/svg+xml'):
+                self.images += 1
         if tag == 'figcaption':
             self.figcaptions += 1
         for attr in ['href', 'src']:

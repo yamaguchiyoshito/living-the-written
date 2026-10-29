@@ -17,11 +17,12 @@ if lead_chars > 250: print("  ! 冒頭: 太字の問いまでが250字を超え�
 if me_chars > 150: print("  ! 冒頭: 「私」の場面が150字を超える")
 for ch in chapters[1:]:
     title, _, rest = ch.partition('\n')
-    paras = [p.strip() for p in rest.split('\n\n') if p.strip() and not p.strip().startswith(('![', '*図', '<!--', '[', '## 参考文献'))]
+    paras = [p.strip() for p in rest.split('\n\n') if p.strip() and not p.strip().startswith(('![', '*図', '*書影', '*場面', '<!--', '[', '## 参考文献', '> '))]
     sents_all=[]; issues=[]
     one=0; nocomma_bad=0
     for pi,p in enumerate(paras):
         p = p.replace('**','')
+        p = re.sub(r'「[^」]*」', '「」', p)  # 引用文の中は数えない（文言を変えられないため）
         sents = [s for s in re.split(r'(?<=。)', p) if s.strip()]
         if len(sents)<=1: one+=1
         if len(sents)>6: issues.append(f"P{pi+1}: {len(sents)}文")
